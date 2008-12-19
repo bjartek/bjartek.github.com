@@ -1,0 +1,14 @@
+---
+layout: post
+title: Scala book in the house
+---
+p(meta). 19 Dec 2008 - Kristiansand, Norway
+
+Today I received the deadtree version of my "Programming in Scala/Stairway
+book":http://www.artima.com/shop/programming_in_scala. I can't wait to read the
+final paper version of the book. I have read most of the earlier betas but have
+not had the time to read the final version yet. 
+
+Good timing as well, just when my christmas break starts. 
+
+Congrats to Bill, Martin, Lex, Artima and the Scala community. 
