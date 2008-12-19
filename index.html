@@ -1,15 +1,46 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
- 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Bjartek GitHub test</title>
-  </head>
- 
-<body>
+---
+layout: default
+title: 	Home
+---
+<div class="column span-12">
+	<h2>About me</h2>
+	<ul>
+		<li>work: <a href="http://www.gomobile.no">GoMobile AS</a> Kristiansand, Norway. Senior Developer. iPhone and web development. </li>
+		<li>tags: enthusiasm, geek, nerd, irc, mac</li>
+		<li>interests: development, computer languages, agile methodologies, open source, roleplaying, reading</li>
+		<li>familiy: married to Lena C. W. Karlsen, no kids (yet)</li>
+	</ul>
+</div>
+<div class="column span-12 last">
+<h2>Blog  Posts</h2>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+<hr />
+<div class="column span-12">
+	<div id="twitter_div">
+		<h3 class="twitter-title"><a href="http://www.twitter.com/bjartek">Twitter Updates</a></h3>
+		<ul id="twitter_update_list"></ul>
 
-<h1>Test</h1>
+	</div>
+</div>
 
-</body>
-</html>
+<div class="column span-8">
+	<script type="text/javascript" src="http://del.icio.us/feeds/js/meus?count=5;title=delicious%20links"></script>
+</div>
+
+<div class="column span-4 last">
+	<ul>
+		<li><a href="google-reader-subscriptions.xml">opml</a></li>
+		<li><a href="http://www.facebook.com/p/Bjarte_Stien_Karlsen/536807480" title="Bjarte Stien Karlsen's Facebook profile">facebook</a></li>
+		<li><a href="http://www.linkedin.com/pub/1/555/23" >linkedin</a></li>
+		<li>meus @ircnet, bjartek @ Freenode, EFNet</li>
+		<li>bjarte (at) bjartek.org</li>
+	</ul>
+</div>
+<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/bjartek.json?callback=twitterCallback2&count=5"></script>
+

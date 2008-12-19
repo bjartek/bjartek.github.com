@@ -1,0 +1,18 @@
+---
+layout: post
+title: Staring up github blog
+---
+
+h1. {{ page.title }}
+
+p(meta). 19 Dec 2008 - Kristiansand, Norway
+
+Yesterday I read about "GitHub Pages":http://github.com/blog/272-github-pages
+and I just had to try it out. I think git it really cool and I love the work of
+the github staff. They constantly improve their offering and that is something I
+respect. 
+
+In order to create this page I took my old blueprint based design and borrowed
+some setup tips for Jekyll from "mojombo":http://github.com/mojombo/mojombo.github.com/tree/master.
+
+Keep up the good work github!
