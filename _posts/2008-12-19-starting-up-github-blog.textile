@@ -2,9 +2,6 @@
 layout: post
 title: Staring up github blog
 ---
-
-h1. {{ page.title }}
-
 p(meta). 19 Dec 2008 - Kristiansand, Norway
 
 Yesterday I read about "GitHub Pages":http://github.com/blog/272-github-pages
