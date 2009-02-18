@@ -98,22 +98,13 @@ ul.posts span {
 	overflow: hidden;
 }
 
-.site .twitter {
+.site .small {
 	font-size: 80%;
 	color: #666;
 	border-top: 4px solid #eee;
 	margin-top: 2em;
 	overflow: hidden;
 }
-
-.site .delicious {
-	font-size: 80%;
-	color: #666;
-	border-top: 4px solid #eee;
-	margin-top: 2em;
-	overflow: hidden;
-}
-
 
 .site .footer .contact {
 	float: left;
