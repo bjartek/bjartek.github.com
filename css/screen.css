@@ -289,51 +289,48 @@ ul.posts {
     margin: 5px 0;
 }
  
+/* Navigation ------------------------------------------------------------ */
+#navlist
+{
+padding: 3px 0;
+margin-left: 0;
+border-bottom: 1px solid #778;
+font: bold 12px Verdana, sans-serif;
+}
 
-/* Navigation ----------------------------------------------------------------- */
- 
-#main-navigation {
-    background: #eee url(nav-bg.gif) repeat-x 0 0;
-    border-bottom: 1px solid #ccc;
-    font-size: 100%;
+#navlist li
+{
+list-style: none;
+margin: 0;
+display: inline;
 }
- 
-#main-navigation-inner {
-    position: relative;
+
+#navlist li a
+{
+padding: 3px 0.5em;
+margin-left: 3px;
+border: 1px solid #778;
+border-bottom: none;
+background: #DDE;
+text-decoration: none;
 }
- 
-#main-navigation ul {
-    margin: 0;
-    padding: 0 0 0 20px;
-    list-style: none;
+
+#navlist li a:link { color: #448; }
+#navlist li a:visited { color: #667; }
+
+#navlist li a:hover
+{
+color: #000;
+background: #AAE;
+border-color: #227;
 }
- 
-#main-navigation ul li {
-    float: left;
-    padding-top: 2px;
+
+#navlist li a#current
+{
+background: white;
+border-bottom: 1px solid white;
 }
- 
-#main-navigation ul li a {
-    display: block;
-    text-decoration: none;
-    padding: 7px 15px 7px 16px;
-    border-left: 1px solid #ccc;
-}
- 
-#main-navigation ul li a:hover {
-    text-decoration: underline;
-}
- 
-#main-navigation ul li.on a {
-    color: #000;
-    background: #fff url(nav-arrow-on.gif) no-repeat 50% bottom;
-}
- 
-#main-navigation ul li.last {
-    border-right: 1px solid #ccc;
-}
- 
- 
+
 /* Search ---------------------------------------------------------------- */
  
 .widget-search {
