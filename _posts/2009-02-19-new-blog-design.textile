@@ -1,0 +1,14 @@
+---
+layout: post
+title: New blog design, problem with active menu element in jekyll
+---
+p(meta). 19 Feb 200 - Kristiansand, Norway
+
+Decided that I wanted to freshen up my blog a little bit. I like the design of "jboner":http://jonasboner.com and that of "mojomobo":http://tom.preston-werner.com/ so I set out to create a page inspired by them.
+
+I like the new design but I have one issue with jekyll that I am not sure how to solve. For my menu to work I need to set some css properties on the li of the active element. 
+
+I guess this could be solved if I specified the menu as YAML in my default template and then checked on the page.title element to set the propper id/class elements. I am not sure how to do this in jekyll currently. If you can help me with this please send me a ping on twitter or in #jekyll on freenode.  
+
+In order to solve my active menu element problem I have currently put the menu div in each of the pages instead of in the default template. 
+
