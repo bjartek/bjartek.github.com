@@ -57,16 +57,16 @@ table {
 /*
 /*****************************************************************************/
 
-.content ul {
+ul.posts ul {
 	list-style-type: none;
 	margin-bottom: 1em;
 }
 
-.content ul li {
+ul.posts li {
 	line-height: 1.75em;
 }
 
-.content ul span {
+ul.posts span {
 	color: #aaa;
 	font-family: Monaco, "Courier New", monospace;
 	font-size: 80%;
