@@ -18,8 +18,6 @@ menu:
 		<title>bjartek.org &raquo; {{ page.title }}</title>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 		<meta name="author" content="Bjarte Stien Karlsen" />
-
-		<link rel="stylesheet" href="/css/syntax.css" type="text/css" />
 		<link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection">
 
 		<link href="http://feeds.feedburner.com/bjartek-all" rel="alternate" title="Bjartek Blog All posts" type="application/atom+xml" />
@@ -73,6 +71,17 @@ menu:
 		<script type="text/javascript">
 			_uacct = "UA-2566801-1";
 			urchinTracker();
+			</script>
+
+			<link type="text/css" rel="stylesheet" href="/css/SyntaxHighlighter.css"></link>
+			<script language="javascript" src="/js//shCore.js"></script>
+			<script language="javascript" src="/js/shBrushXml.js"></script>
+			<script language="javascript" src="/js/shBrushRuby.js"></script>
+			<script language="javascript" src="/js/shBrushScala.js"></script>
+			<script language="javascript" src="/js/shBrushJava.js"></script>
+			<script language="javascript">
+				dp.SyntaxHighlighter.ClipboardSwf = '/flash/clipboard.swf';
+				dp.SyntaxHighlighter.HighlightAll('code');
 			</script>
 		</body>
 	</html>

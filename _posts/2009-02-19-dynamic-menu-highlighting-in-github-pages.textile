@@ -1,0 +1,57 @@
+---
+layout: post
+title: Dynamic menu highlighting in github pages
+---
+p(meta). 19 Feb 2009 - Kristiansand, Norway
+
+Earlier today "I blogged":http://bjartek.github.com/2009/02/19/new-blog-design.html  that I had problems with getting a dynamic menu configured in github pages. 
+
+After some research and peeking at the jekyll source I found a sollution. In the
+default style place the following yaml frontmatter:
+
+<pre name="code" class="xml">
+---
+menu: 
+- id: home
+url: /
+- id: archive
+url: /content/archive.html
+- id: talk
+url: /content/talk.html
+- id: resume
+url: /content/resume.html
+- id: about
+url: /content/about.html
+</pre>
+
+Then in all pages place a yaml frontmatter like:
+
+<pre name="code" class="xml">
+---
+layout: default
+id: home
+title: The title of the page/post
+</pre>
+
+This id tells the system that the following page should highlight the home tab. 
+
+The actual code to present the menu can be seen below. I had to replace {} with
+() to get liquid to not parse the actual code.
+
+<pre name="code" class="xml">
+<div id="navcontainer">
+  <ul id="navlist">
+    (% for element in page.menu %)
+      (% if page.id == element.id %)
+        <li id="active">
+          <a href="(( element.url ))" id="current">(( element.id ))</a>
+         </li>
+      (% else %)
+        <li><a href="(( element.url ))">(( element.id ))</a></li>
+      (% endif %)
+    (% endfor %)
+  </ul>
+</div>
+</pre>
+
+Feel free to reuse this code example in your blog if you want a dynamic menu.

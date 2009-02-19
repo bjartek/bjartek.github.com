@@ -1,6 +1,7 @@
 ---
 layout: default
-title: about
+title: About bjartek.org
+id: about
 ---
 * work: "Go Mobile AS":http://www.gomobile.no  Kristiansand, Norway. Senior Developer. iPhone and web development. 
 * tags: enthusiasm, geek, nerd, irc, mac

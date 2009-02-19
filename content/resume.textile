@@ -1,5 +1,6 @@
 ---
 layout: default
-title: resume
+id: resume
+title: Resume - Bjarte Stien Karlsen
 ---
 my resume will come here
