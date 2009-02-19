@@ -109,25 +109,25 @@ ul.posts span {
 
  .site .footer .contact a {
 	 color: #8085C1;
-		}
-
-		.site .footer .rss {
-			margin-top: 1.1em;
-			margin-right: -.2em;
-			float: right;
 	}
 
-	.site .footer .rss img {
-		border: 0;
-		}
+	.site .footer .rss {
+		margin-top: 1.1em;
+		margin-right: -.2em;
+		float: right;
+}
 
-		/*****************************************************************************/
-		/*
-		/* Posts
-		/*
-		/*****************************************************************************/
+.site .footer .rss img {
+	border: 0;
+	}
 
-		#post {
+	/*****************************************************************************/
+	/*
+	/* Posts
+	/*
+	/*****************************************************************************/
+
+	#post {
 
 }
 
@@ -153,14 +153,14 @@ ul.posts span {
 
 #post pre code {
 	border: none;
-	}
+}
 
-	/* terminal */
+/* terminal */
 
-	#post pre.terminal {
-		border: 1px solid black;
-		background-color: black;
-		color: white;
+#post pre.terminal {
+	border: 1px solid black;
+	background-color: black;
+	color: white;
 }
 
 #post pre.terminal code {
@@ -335,3 +335,10 @@ ul.posts span {
 	padding: 0px 5px 1px 5px;
 	font-size: 11px;
 }
+
+#ie6msg{border:3px solid #000; margin:8px 0; background:#fff; color:#000;}
+#ie6msg h4{margin:8px; padding:0;}
+#ie6msg p{margin:8px; padding:0;}
+#ie6msg p a.getie7{font-weight:bold; color:#000;}
+#ie6msg p a.ie6expl{font-weight:normal; color:#000;}
+
