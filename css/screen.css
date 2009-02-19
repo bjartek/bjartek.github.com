@@ -43,7 +43,7 @@ a:hover {
 }
 
 a:visited {
-	color: #a0a;
+	color: #f70;
 }
 
 table {
@@ -292,7 +292,7 @@ ul.posts span {
 }
 
 #navlist li a:link { color: #448; }
-#navlist li a:visited { color: #f70; }
+#navlist li a:visited { color: #667; }
 
 #navlist li a:hover
 {
