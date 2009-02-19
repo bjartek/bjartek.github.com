@@ -1,0 +1,15 @@
+h1. This is the data for my blog
+
+It is automatically transformed by "Jekyll":http://github.com/mojombo/jekyll into a static site whenever I push this repository to GitHub.
+
+Thanks a bunch to mojomobo for this awesome stuff!
+
+h1. License
+
+The following directories and their contents are Copyright Bjarte Stien Karlsen. You may not reuse anything therein without my permission:
+
+* _posts/
+* images/
+* resume/
+
+All other directories and files are MIT Licensed. 
