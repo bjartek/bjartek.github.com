@@ -300,6 +300,7 @@ ul.posts span {
 #navlist li a#current
 {
 	background: white;
+	color: #E70;
 	border-bottom: 1px solid white;
 }
 
