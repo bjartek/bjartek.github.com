@@ -287,17 +287,17 @@ ul.posts span {
 	margin-left: 3px;
 	border: 1px solid #778;
 	border-bottom: none;
-	background: #DDE;
+	background: #DDD;
 	text-decoration: none;
 }
 
 #navlist li a:link { color: #448; }
-#navlist li a:visited { color: #667; }
+#navlist li a:visited { color: #f70; }
 
 #navlist li a:hover
 {
 	color: #000;
-	background: #AAE;
+	background: #f70;
 	border-color: #227;
 }
 
