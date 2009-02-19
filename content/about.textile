@@ -1,0 +1,9 @@
+---
+layout: default
+title: about
+---
+* work: "Go Mobile AS":http://www.gomobile.no  Kristiansand, Norway. Senior Developer. iPhone and web development. 
+* tags: enthusiasm, geek, nerd, irc, mac
+* interests: development, computer languages, agile methodologies, open source, roleplaying, reading
+* family: married to Lena C. W. Karlsen, no kids (yet)
+* cat: The neighbour cat 'Helge' owns me. 

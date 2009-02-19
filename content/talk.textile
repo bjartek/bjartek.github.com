@@ -1,0 +1,5 @@
+---
+layout: default
+title: talk
+---
+* %02 Oct 2008% &raquo; "Scala - En Introdukasjon (no)":http://slides.bjartek.org/scala-javabin/ Introduction to scala talk in Norwegian
