@@ -2,7 +2,7 @@
 layout: post
 title: New blog design, problem with active menu element in jekyll
 ---
-p(meta). 19 Feb 200 - Kristiansand, Norway
+p(meta). 19 Feb 2009 - Kristiansand, Norway
 
 Decided that I wanted to freshen up my blog a little bit. I like the design of "jboner":http://jonasboner.com and that of "mojombo":http://tom.preston-werner.com/ so I set out to create a page inspired by them.
 
