@@ -13,15 +13,15 @@ default style place the following yaml frontmatter:
 ---
 menu: 
 - id: home
-url: /
+  url: /
 - id: archive
-url: /content/archive.html
+  url: /content/archive.html
 - id: talk
-url: /content/talk.html
+  url: /content/talk.html
 - id: resume
-url: /content/resume.html
+  url: /content/resume.html
 - id: about
-url: /content/about.html
+  url: /content/about.html
 </pre>
 
 Then in all pages place a yaml frontmatter like:
