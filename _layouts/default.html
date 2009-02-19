@@ -1,3 +1,16 @@
+---
+menu: 
+- title: home
+  url: /
+- title: archive
+  url: /content/archive.html
+- title: talk
+  url: /content/talk.html
+- title: resume
+  url: /content/resume.html
+- title: about
+  url: /content/about.html
+---
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
@@ -14,7 +27,15 @@
 
 	<body>
 		<div class="site">
-		{{ content }}
+			<div id="navcontainer">
+				<ul id="navlist">
+				{%for element in page.menu %}
+				{% if page.title == element.title %}<li id="active"><a href="{{ element.url }}" id="current">{{ element.title }}</a></li>
+				{% else %}<li><a href="{{ element.url }}">{{ element.title }}</a></li>
+				{% endif %}{% endfor %}
+				</ul>
+			</div>
+			{{ content }}
 			<div class="footer">
 				<div class="contact">
 					<p>

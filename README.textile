@@ -10,6 +10,6 @@ The following directories and their contents are Copyright Bjarte Stien Karlsen.
 
 * _posts/
 * images/
-* resume/
+* content/
 
 All other directories and files are MIT Licensed. 
