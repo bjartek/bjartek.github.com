@@ -6,9 +6,9 @@ asd: asd
 <div>
 my resume will come here
 
-{{ site.asd }}
+{{ page.asd }}
 
-
-{{ site.asd == "sad" }}
-
+{% if page.asd == "asd" %}
+ foobar
+{% endif %}
 </div>
