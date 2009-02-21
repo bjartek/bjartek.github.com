@@ -3,4 +3,60 @@ layout: default
 id: resume
 title: Resume - Bjarte Stien Karlsen
 ---
-my resume will come here
+
+Personlia
+* name: Bjarte Stien Karlsen
+* address: Ronatoppan 6a, 4638 Kristiansand
+* phone_number: 95219547
+* email: bjarte@bjartek.org
+* married
+
+Education
+
+* 2003 -> 2005 : Master of Science/Informatics - NTNU
+* 2002 -> 2003 : Bachelor in Informatics - NTNU
+* 2000 -> 2001 : Extention to IT and Information System - Agder College
+* 1998 -> 2000 : It and Information System - Agder College 
+* 1997 -> 1998 : Mandatory Military Service. Sanitation officer
+* 1994 -> 1997: High School
+
+Note that Agder Collegge is now The University of Agder. 
+
+Work esperience
+
+* 1998 -> 1999: Boxer Technologies
+ * Worked part time from september to june. 
+
+* 2000 -> 2001 : Interweb AS
+ * part time webdeveloper in PHP
+ * june -> june
+
+* 2002 -> 2003 : Steinhaug Webdeign
+ * webdeveloper in PHP
+ * part time during the summer and during the fall until january 2003
+
+* 2006 : Intermedium AS
+ * from january to may
+ * system developer using java, maven, spring, hibernate
+
+* 2006 -> 2007 : Go Mobile AS
+ * System Developer. Mostly webdevelopment on the LAMP stack. 
+ * promoted in dec 2007
+
+* 2007 -> 2009 : Go Mobile As
+ * Senior System Developer
+ * iphone development
+ * qa responsibility
+ * methodology responsibility
+ * current job
+
+Volunteer Work
+
+01.08.2008 ->                 Member of the board javaBin Sørlandet
+01.01.2006 - 01.01.2008 2 yrs Leader of Alea Legio
+06.09.2004 - 01.08.2005 1 yrs Secretary / Storekeeper Hexagon 
+15.11.2004 - 15.10.2005 1 yrs Secretary Hexcon 
+02.09.2002 - 06.09.2004 1 yrs Web-monkey Hexagon 
+01.01.2002 - 01.08.2005 3 yrs Member of Comitee Waarcon 
+15.08.2000 - 15.06.2001 1 yrs Webansvarlig Systématicus 
+15.08.1999 - 15.06.2000 1 yrs Leader Systématicus
