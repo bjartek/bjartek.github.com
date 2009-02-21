@@ -1,10 +1,20 @@
 ---
 layout: default
-title: About bjartek.org
+title: About Bjarte S. Karlsen
 id: about
 ---
-* work: "Go Mobile AS":http://www.gomobile.no  Kristiansand, Norway. Senior Developer. iPhone and web development. 
-* tags: enthusiasm, geek, nerd, irc, mac
-* interests: development, computer languages, agile methodologies, open source, roleplaying, reading
-* family: married to Lena C. W. Karlsen, no kids (yet)
-* cat: The neighbour cat 'Helge' owns me. 
+Hey I am Bjarte S. Karlsen and I am a developer, nerd and roleplaying geek. I think that sums it up pretty well. 
+
+I am educated as a computer scientist from 'NTNU':http://www.ntnu.no specializing in system development. 
+
+Most of my professional experience has thus far been in web development with the LAMP stack. I have also coded some applications for the Apple iPhone. 
+
+On my spare time I like to learn, read and play roleplaying games. When I read/listen to fiction I prefer fantasy and science fiction in that order. Literature that is unrealistic and strange and that keeps my mind away from everyday concerns. When learning I liked to read books about computer languages, methodologies. I also have quite a healthy subscription list in my Google Reader and hang out at IRC and at twitter quite a lot. 
+
+I play roleplaying games regulary every other tuesday. Currently I play DnD 4th edition and I like it quite a lot. I am also interrested in indie roleplaying games. I have quite a collection of roleplaying books, but I seldom get to use most of them :/ I also play boardgames, wargames and cardgames from time to time. 
+
+Possitive tags
+mac, linux, ubuntu, debian, vim, cli, git, github, irc, scala, maven, ack, testing, rest, open source, iphone, cats, chilli, garlic, whisky, 
+
+Negative tags
+microsoft windows, msie, microsoft office, ms word, gpl, dogs, seafood, mouse driven gui, 
