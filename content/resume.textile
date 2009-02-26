@@ -21,6 +21,7 @@ Note that Agder Collegge is now The University of Agder.
 h2. Work experience
 
 h3.  <span>Dec 2007 -> </span> &raquo; Senior System Developer - Go Mobile As
+
  * Senior System Developer
  * iphone development
  * qa responsibility
@@ -28,20 +29,25 @@ h3.  <span>Dec 2007 -> </span> &raquo; Senior System Developer - Go Mobile As
  * current job
 
 h3. <span>May 2006 -> Dec 2007</span> &raquo; System Developer - Go Mobile AS
+
  * Mostly webdevelopment on the LAMP stack. 
  * promoted in dec 2007
 
 h3. <span>Jan 2006 -> May 2006</span> &raquo; System Developer - Intermedium AS
+
  * eclipse, java, maven, spring, hibernate
 
 h3. <span>Jun 2002 -> Jan 2003</span> &raquo; Webdeveloper - Steinhaug Webdeign
+
  * webdeveloper in PHP
  * part time during the summer and during the fall until january 2003
 
 h3. <span>Jun 2000 -> Jun 2001</span> &raquo; Webdevloper - Interweb AS
+
  * worked in the summers and part time 50% during the rest of the year
 
 h3. <span>Sep 1998 -> Jun 1999</span> &raquo; Boxer Technologies
+
  * Worked part time with Macromedia Authorware to create educational software
 
 h2. Volunteer Work
