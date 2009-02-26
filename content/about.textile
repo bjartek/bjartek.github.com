@@ -3,7 +3,7 @@ layout: default
 title: About Bjarte S. Karlsen
 id: about
 ---
-Hey I am Bjarte S. Karlsen and I am a geek in several aspects. Computers, programming, roleplaying and fantasy. I think that sums it up pretty well.
+Hey I am Bjarte S. Karlsen and I am a computer geek. 
 
 I am educated as a computer scientist from "NTNU":http://www.ntnu.no specializing in system development. 
 
@@ -14,9 +14,7 @@ languages, methodologies and new coding techniques to improve my style. I also h
 
 I play roleplaying games regulary every other tuesday. Currently I play DnD 4th edition and I like it quite a lot. I am also interrested in indie roleplaying games. I have quite a collection of roleplaying books, but I seldom get to use most of them :/ I also play boardgames, wargames and cardgames from time to time. 
 
-In order to describe myself further i decided to write up two sets of tags. The tags in a set is not put there in any specific order and it is more a
-'feeling' kind of tag then an absolute belief that something is good or bad. Some of these feelings are stronger then others but I will not go into
-that here. 
+In order to describe myself further i decided to write up two sets of tags. The tags in a set is not put there in any specific order and it is more a 'feeling' kind of tag then an absolute belief that something is good or bad. Some of these feelings are stronger then others but I will not go into that here. 
 
 h3. Possitive tags
 
@@ -24,4 +22,4 @@ mac, linux, ubuntu, debian, vim, cli, git, github, irc, scala, maven, ack, testi
 
 h3. Negative tags
 
-microsoft windows, msie, microsoft office, ms word, gpl, dogs, seafood, mouse driven gui, drm, wmv, fixing hardware computer problems, fixing others microsoft windows problems
+microsoft windows, msie, microsoft office, ms word, gpl, dogs, seafood, mouse driven gui, drm, wmv, fixing hardware computer problems, fixing others microsoft windows problems, roadrage

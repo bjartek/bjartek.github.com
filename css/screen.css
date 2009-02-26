@@ -342,3 +342,28 @@ ul.posts span {
 #ie6msg p a.getie7{font-weight:bold; color:#006;}
 #ie6msg p a.ie6expl{font-weight:normal; color:#006;}
 
+
+/* resume */
+#resume ul {
+
+	list-style-type: none;
+	margin-bottom: 1em;
+	margin-left: 2em;
+}
+
+#resume ul li {
+	line-height: 1.75em;
+}
+
+
+#resume h2  {
+	border-top: 4px solid #eee;
+	margin-top: 1em;
+}
+
+#resume span {
+	color: #aaa;
+	font-family: Monaco, "Courier New", monospace;
+	font-size: 80%;
+}
+

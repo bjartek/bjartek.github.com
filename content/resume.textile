@@ -4,59 +4,54 @@ id: resume
 title: Resume - Bjarte Stien Karlsen
 ---
 
-Personlia
-* name: Bjarte Stien Karlsen
-* address: Ronatoppan 6a, 4638 Kristiansand
-* phone_number: 95219547
-* email: bjarte@bjartek.org
-* married
+<div id="resume">
 
-Education
+h2. Education
 
-* 2003 -> 2005 : Master of Science/Informatics - NTNU
-* 2002 -> 2003 : Bachelor in Informatics - NTNU
-* 2000 -> 2001 : Extention to IT and Information System - Agder College
-* 1998 -> 2000 : It and Information System - Agder College 
-* 1997 -> 1998 : Mandatory Military Service. Sanitation officer
-* 1994 -> 1997: High School
+* <span>Aug 2003 -> Jan 2006</span> &raquo; Master of Science/Informatics - NTNU
+* <span>Jan 2002 -> Jun 2003</span> &raquo; Bachelor in Informatics - NTNU
+* <span>Aug 2000 -> Jun 2001</span> &raquo; Extention to IT and Information System - Agder College
+* <span>Aug 1998 -> Jun 2000</span> &raquo; It and Information System - Agder College 
+* <span>Aug 1997 -> Jun 1998</span> &raquo; Mandatory Military Service. Sanitation officer
+* <span>Aug 1994 -> Jun 1997</span> &raquo; High School
 
 Note that Agder Collegge is now The University of Agder. 
 
-Work esperience
 
-* 1998 -> 1999: Boxer Technologies
- * Worked part time from september to june. 
+h2. Work experience
 
-* 2000 -> 2001 : Interweb AS
- * part time webdeveloper in PHP
- * june -> june
-
-* 2002 -> 2003 : Steinhaug Webdeign
- * webdeveloper in PHP
- * part time during the summer and during the fall until january 2003
-
-* 2006 : Intermedium AS
- * from january to may
- * system developer using java, maven, spring, hibernate
-
-* 2006 -> 2007 : Go Mobile AS
- * System Developer. Mostly webdevelopment on the LAMP stack. 
- * promoted in dec 2007
-
-* 2007 -> 2009 : Go Mobile As
+h3.  <span>Dec 2007 -> </span> &raquo; Senior System Developer - Go Mobile As
  * Senior System Developer
  * iphone development
  * qa responsibility
  * methodology responsibility
  * current job
 
-Volunteer Work
+h3. <span>May 2006 -> Dec 2007</span> &raquo; System Developer - Go Mobile AS
+ * Mostly webdevelopment on the LAMP stack. 
+ * promoted in dec 2007
 
-01.08.2008 ->                 Member of the board javaBin Sørlandet
-01.01.2006 - 01.01.2008 2 yrs Leader of Alea Legio
-06.09.2004 - 01.08.2005 1 yrs Secretary / Storekeeper Hexagon 
-15.11.2004 - 15.10.2005 1 yrs Secretary Hexcon 
-02.09.2002 - 06.09.2004 1 yrs Web-monkey Hexagon 
-01.01.2002 - 01.08.2005 3 yrs Member of Comitee Waarcon 
-15.08.2000 - 15.06.2001 1 yrs Webansvarlig Systématicus 
-15.08.1999 - 15.06.2000 1 yrs Leader Systématicus
+h3. <span>Jan 2006 -> May 2006</span> &raquo; System Developer - Intermedium AS
+ * eclipse, java, maven, spring, hibernate
+
+h3. <span>Jun 2002 -> Jan 2003</span> &raquo; Webdeveloper - Steinhaug Webdeign
+ * webdeveloper in PHP
+ * part time during the summer and during the fall until january 2003
+
+h3. <span>Jun 2000 -> Jun 2001</span> &raquo; Webdevloper - Interweb AS
+ * worked in the summers and part time 50% during the rest of the year
+
+h3. <span>Sep 1998 -> Jun 1999</span> &raquo; Boxer Technologies
+ * Worked part time with Macromedia Authorware to create educational software
+
+h2. Volunteer Work
+
+* <span>Aug 2008 ->         </span> &raquo; Member of the board "javaBin":http://java.no  Sørlandet
+* <span>Jan 2006 -> Jan 2009</span> &raquo; Leader of "Alea Legio":http://alealegio.no
+* <span>Sep 2004 -> Aug 2005</span> &raquo; Secretary / Storekeeper "Hexagon":http://www.pvv.ntnu.no/hexagon/hexagon/
+* <span>Nov 2004 -> Oct 2005</span> &raquo; Secrectary "Hexcon":http://www.pvv.ntnu.no/hexagon/hexcon/
+* <span>Sep 2002 -> Sep 2004</span> &raquo; Webmonkey "Hexagon":http://www.pvv.ntnu.no/hexagon/hexagon/
+* <span>Jan 2002 -> Aug 2005</span> &raquo; Member of the board "Waarcon":http://waarcon.hexcon.no/
+* <span>Aug 2000 -> Jun 2001</span> &raquo; Webmonkey "Systématicus":http://systematicus.org 
+* <span>Aug 1999 -> Jun 2000</span> &raquo; Leader "Systématicus":http://systematicus.org
+
