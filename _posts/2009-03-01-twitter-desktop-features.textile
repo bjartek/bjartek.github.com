@@ -1,0 +1,28 @@
+---
+layout: post
+title: Brainstorming dekstop twitter client features
+---
+p(meta). 01 March 2009 - Kristiansand, Norway
+
+There are several twitter clients out there, but I feel that noen of them really fills the needs I have with twitter. I currently just use the webpage mostly. Sometimes I use twitterfic and get new tweets through growl.
+
+This post is a brainstorming in features for a desktop twitter client. 
+
+* when fetching new tweets only process items that are not processed before. Does twitter support modified-since stuff so that it is possible to only fetch tweets after a given time?
+* filter incomming tweets. Based upon regex in the tweet, author of the tweet
+* block noisy buddies
+* create presets for filters/blocks so that it is possible to tune the client for given contexts. Sometimes you do not want to see all types of  tweets
+* retweeting support. and reply support with custom templates to do so.
+* add urls to delicious support. automatically tag with #hashtags in tweet
+* reply-to history. 
+* set refresh rate
+* lots of keyboard shortcuts. post new tweet, reply to active element, retweet active element, move to next/prev element, if reply see originating message. 
+* ability to customize keyboard shortcuts in some way. ( I like vim, others like emacs..)
+* show remaining requests allowed to twitter
+* decouple GUI and engine so that is is possible to build several GUI's on top of the engine
+* inspector view for currently selected tweet. To see profile, image etc. 
+* process FriendsTimeline and predefined searches. 
+
+"David Briccetti":http://briccetti.blogspot.com/ has experimented with a twitter client in scala and swing. Several of these features are in his client. 
+
+If anybody know of a twitter library that has some or more of these features then please let me know. 
