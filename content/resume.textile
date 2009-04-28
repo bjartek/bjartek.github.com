@@ -24,7 +24,7 @@ h2. Personal Details
 
 h2. Highlight
 
-Passionate and engaged developer that like to explore new languages, techniques and methodologies to constantly improve myself. Pragmatic approach to learning vs using. Thrives in an environment where I can interact with exciting people and give the customer value.
+Passionate and engaged developer who like to explore new languages, techniques and methodologies to constantly improve myself. A pragmatic mindset when it commes to applying new knowledge in day to day work. Thrives in an environment where I can interact with exciting people and give the customer value.
 
 
 h2. Selected Technical kills
@@ -76,7 +76,7 @@ Responsibilities
 
 h3. <span>Jan 2006 -> May 2006</span> &raquo; System Developer - Intermedium AS
 
-I started at Intermedium AS after i finished graduating from NTNU in January of 2006. At Intermedium I was part of a small 3 man IT department that supported the main operation of the business. In May the company moved to Oslo so I started at GoMobile.
+I started at Intermedium AS after I finished graduating from NTNU in January of 2006. At Intermedium I was part of a small 3 man IT department that supported the main operation of the business. In May the company moved to Oslo so I started at GoMobile.
 
 I worked with the following technologies while at Intermedium: Java SE, Maven, Spring, Hibernate, MySQL, Nutch
 
@@ -86,11 +86,11 @@ I worked as a web developer in PHP during the summer of 2002 and also did some w
 
 h3. <span>Jun 2000 -> Jun 2001</span> &raquo; Web developer - Interweb AS
 
-I started working for Interweb AS as a web developer during the summer of 2000. During the school year 2000/2001 I worked 50-80% part time on the team that created the Sense.no web portal during this time. I left Interweb to move to my girlfriend in Trondheim. 
+I started working for Interweb AS as a web developer during the summer of 2000. During the school year 2000/2001 I worked 50-80% part time on the team that created the Sense.no web portal. I left Interweb to move to my girlfriend in Trondheim. 
 
 h3. <span>Sep 1998 -> Jun 1999</span> &raquo; Boxer Technologies
 
-I worked part time during my first year at College, and during the summer vacation. The work was mostly creating educational software in Macromedia Authorware. At Boxer I met lots of interesting professionals that I have encountered later in my working career. 
+I worked part time during my first year at College, and during the summer vacation. The work was mostly creating educational software in Macromedia Authorware. 
 
 h2. Volunteer Work
 
