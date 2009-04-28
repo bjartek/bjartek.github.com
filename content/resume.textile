@@ -59,7 +59,7 @@ Started at Go Mobile in may of 2006. Worked on various web applications with a s
 
 Created and maintained a set of services (Restful/HTTPRPC) to ease development of web content for mobile terminals. 
 * inbox -> receive SMS/MMS from mobile terminals
-* outbox -> send sms/mms and other messages to mobile terminals
+* outbox -> send SMS/MMS and other messages to mobile terminals
 * terminal -> get a terminals capabilities. screensize, technology support etc. 
 * imageproxy -> convert images to correct screen dimmentions easily
 * ad -> customize ads from Finn.no/Tinde.no to mobile terminals
@@ -76,9 +76,9 @@ Responsibilities
 
 h3. <span>Jan 2006 -> May 2006</span> &raquo; System Developer - Intermedium AS
 
-I started at Intermedium AS after i finished graduating from NTNU in January of 2006. Was part of a small team that was creating software for internal use. The project we started on while I was there was a new support system to manage searches for the key account managers. The system was Java based and the architecture looked very exiting. In May the company moved to Oslo so I started at GoMobile.
+I started at Intermedium AS after i finished graduating from NTNU in January of 2006. At Intermedium I was part of a small 3 man IT department that supported the main operation of the business. In May the company moved to Oslo so I started at GoMobile.
 
-I worked with the following technologies while at Intermedium: Java SE, Maven, Spring, Hibernate, MySQL, nutch
+I worked with the following technologies while at Intermedium: Java SE, Maven, Spring, Hibernate, MySQL, Nutch
 
 h3. <span>Jun 2002 -> Jan 2003</span> &raquo; Web developer - Steinhaug Web deign
 
