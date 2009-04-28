@@ -7,7 +7,6 @@ h2 {
 	border-bottom: 1px solid gray
 }
 
-
-table, tr, td, th {
-	vertical-align: left;
+th {
+	text-align: left;
 }

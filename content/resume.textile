@@ -8,6 +8,7 @@ title: Curriculum Vitae / Resume - Bjarte S. Karlsen
 
 h1. {{page.title}}
 
+This CV is avaialbe in PDF format <a href="BjarteK-CV.pdf">here</a>
 
 h2. Personal Details
 
@@ -107,3 +108,4 @@ My vonlunteer work are ether related to my hobby as a roleplaying/boardgamer or 
 h2. References and other attachments
 
 Available upon reqest
+
