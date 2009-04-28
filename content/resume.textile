@@ -58,11 +58,11 @@ h3. <span>May 2006 -> Dec 2007</span> &raquo; System Developer - Go Mobile AS
 Started at Go Mobile in may of 2006. Worked on various web applications with a standard LAMP stack. 
 
 Created and maintained a set of services (Restful/HTTPRPC) to ease development of web content for mobile terminals. 
-* inbox : to wrap various SMSGW communication and route communication
-* outbox : to get a uniform interface to send messages to mobile terminals. Wraps various SMSGW apis. 
-* terminal: get capabilities of a mobile terminal. screen width, Javascript support etc
-* imageproxy: convert images to correct screen width easily
-* ad: parse ads from Finn/Tinde into a common format to show on mobile terminal
+* inbox -> receive SMS/MMS from mobile terminals
+* outbox -> send sms/mms and other messages to mobile terminals
+* terminal -> get a terminals capabilities. screensize, technology support etc. 
+* imageproxy -> convert images to correct screen dimmentions easily
+* ad -> customize ads from Finn.no/Tinde.no to mobile terminals
 
 Some standalone applications
 * mailing list with SMS as transport for Team Expert
