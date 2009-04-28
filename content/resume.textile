@@ -55,7 +55,7 @@ Additional responsibilities and tasks
 
 h3. <span>May 2006 -> Dec 2007</span> &raquo; System Developer - Go Mobile AS
 
-Started at Go Mobile in may of 2006. Worked on various web applications with a standard LAMP stack. 
+Started at Go Mobile in May, 2006. Worked on various web applications with a standard LAMP stack. 
 
 Created and maintained a set of services (Restful/HTTPRPC) to ease development of web content for mobile terminals. 
 * inbox -> receive SMS/MMS from mobile terminals
@@ -86,7 +86,7 @@ I worked as a web developer in PHP during the summer of 2002 and also did some w
 
 h3. <span>Jun 2000 -> Jun 2001</span> &raquo; Web developer - Interweb AS
 
-I started working for Interweb AS as a web developer during the summer of 2000. During the fall of 2000 i worked there 50% and wrote a report for a course at school for some of my work. Spring of 2001 saw me working 3 full days a week. I worked on the team that created the Sense.no web portal during this time. I left Interweb to move to my girlfriend in Trondheim. 
+I started working for Interweb AS as a web developer during the summer of 2000. During the school year 2000/2001 I worked 50-80% part time on the team that created the Sense.no web portal during this time. I left Interweb to move to my girlfriend in Trondheim. 
 
 h3. <span>Sep 1998 -> Jun 1999</span> &raquo; Boxer Technologies
 
