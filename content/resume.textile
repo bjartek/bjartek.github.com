@@ -24,7 +24,7 @@ h2. Personal Details
 
 h2. Highlight
 
-Passionate and engaging developer that like to explore new languages, techniques and methodologies to constantly improve myself. Pragmatic approach to learning vs using. Thrives in an environment where I can interact with exiting people and give the customer value.
+Passionate and engaging developer that like to explore new languages, techniques and methodologies to constantly improve myself. Pragmatic approach to learning vs using. Thrives in an environment where I can interact with exciting people and give the customer value.
 
 
 h2. Selected Technical kills
@@ -61,14 +61,14 @@ Created and maintained a set of services (Restful/HTTPRPC) to ease development o
 * inbox : to wrap various SMSGW communication and route communication
 * outbox : to get a uniform interface to send messages to mobile terminals. Wraps various SMSGW apis. 
 * terminal: get capabilities of a mobile terminal. screen width, Javascript support etc
-* imageproxy -> convert images to correct screen width easily
-* ad -> parse ads from Finn/Tinde into a common format to show on mobile terminal
+* imageproxy: convert images to correct screen width easily
+* ad: parse ads from Finn/Tinde into a common format to show on mobile terminal
 
-Other standalone applications I was part of creating
-* smslist -> mailing list with SMS as transport for Team Expert
-* location-based raw material balancing. You have 10 units of resource A that I need, and I am close to you. 
+Some standalone applications
+* mailing list with SMS as transport for Team Expert
+* location-based raw material balancing for Massebalansen
 
-Other responsibilities
+Responsibilities
 * installation and maintenance of internal development LAMP server
 * trac/subversion on the dev server
 * phpUnderControl / CruiseControl on the dev server
