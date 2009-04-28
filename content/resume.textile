@@ -8,7 +8,7 @@ title: Curriculum Vitae / Resume - Bjarte S. Karlsen
 
 h1. {{page.title}}
 
-This CV is avaialbe in PDF format <a href="BjarteK-CV.pdf">here</a>
+This CV is available in PDF format <a href="BjarteK-CV.pdf">here</a>
 
 h2. Personal Details
 
@@ -24,7 +24,7 @@ h2. Personal Details
 
 h2. Highlight
 
-I am a passionate and engaging developer that likes to explore new languages, techniques and methodologies to constantly improve. Pragmatic approach to learning vs using. Thrives in an environment where I can interact with existing people and give the customer value.
+Passionate and engaging developer that like to explore new languages, techniques and methodologies to constantly improve myself. Pragmatic approach to learning vs using. Thrives in an environment where I can interact with existing people and give the customer value.
 
 
 h2. Selected Technical kills
@@ -36,7 +36,7 @@ h2. Educational History
 
 * <span>Aug 2003 -> Jan 2006</span> &raquo; Master of Science/Informatics - NTNU
 * <span>Jan 2002 -> Jun 2003</span> &raquo; Bachelor in Informatics - NTNU
-* <span>Aug 2000 -> Jun 2001</span> &raquo; Extention to IT and Information System - Agder College
+* <span>Aug 2000 -> Jun 2001</span> &raquo; Extension to IT and Information System - Agder College
 * <span>Aug 1998 -> Jun 2000</span> &raquo; It and Information System - Agder College 
 * <span>Aug 1997 -> Jun 1998</span> &raquo; Mandatory Military Service. Sanitation officer
 * <span>Aug 1994 -> Jun 1997</span> &raquo; High School
@@ -48,7 +48,7 @@ h2. Employment History
 
 h3.  <span>Dec 2007 -> Mai 2009 </span> &raquo; Senior System Developer - Go Mobile As
 
-In adition to the issues mentioned below I also had the following added responsibilities
+Additional responsibilities and tasks
 * developing native iPhone applications for some of our products
 * responsibility for process and development documentation
 * migrating all applications from old production servers to new production server. 
@@ -57,36 +57,36 @@ h3. <span>May 2006 -> Dec 2007</span> &raquo; System Developer - Go Mobile AS
 
 Started at Go Mobile in may of 2006. Worked on various web applications with a standard LAMP stack. 
 
-Created and maintained a set of services (RESTful/httprpc) to ease developement of web content for mobile terminals. 
-* inbox : to wrap various smsgw communication and route communication
-* outbox : to get a uniform interface to send messages to mobile terminals. Wraps various smsgw apis. 
-* terminal: get capabilities of a mobile terminal. screen width, javascript support etc
-* imageproxy -> convert images to correct screenwidth easily
-* ad -> parse ads from finn/tinde into a common format to show on mobile terminal
+Created and maintained a set of services (Restful/HTTPRPC) to ease development of web content for mobile terminals. 
+* inbox : to wrap various SMSGW communication and route communication
+* outbox : to get a uniform interface to send messages to mobile terminals. Wraps various SMSGW apis. 
+* terminal: get capabilities of a mobile terminal. screen width, Javascript support etc
+* imageproxy -> convert images to correct screen width easily
+* ad -> parse ads from Finn/Tinde into a common format to show on mobile terminal
 
 Other standalone applications I was part of creating
-* smslist -> mailinglist with sms as transport for Team Expert
-* location aware application to do  need balansing. You have 10 units of resource A that I need, and I am close to you. 
+* smslist -> mailing list with SMS as transport for Team Expert
+* location-based raw material balancing. You have 10 units of resource A that I need, and I am close to you. 
 
 Other responsibilities
-* installation and maintainance of internal development LAMP server
+* installation and maintenance of internal development LAMP server
 * trac/subversion on the dev server
 * phpUnderControl / CruiseControl on the dev server
 
 
 h3. <span>Jan 2006 -> May 2006</span> &raquo; System Developer - Intermedium AS
 
-I started at Intermedium AS after i finished graduating from NTNU in january of 2006. Was part of a small team that was creating software for internal use. The project we started on while I was there was a new support system to manage searches for the key account managers. The system was Java based and the architecture looked very exiting. Unfortunately the department in Grimstad was moved to Oslo and since I had just bought a new appartment I had to find new work.
+I started at Intermedium AS after i finished graduating from NTNU in January of 2006. Was part of a small team that was creating software for internal use. The project we started on while I was there was a new support system to manage searches for the key account managers. The system was Java based and the architecture looked very exiting. Unfortunately the department in Grimstad was moved to Oslo and since I had just bought a new apartment I had to find new work.
 
-I worked with the following technologies while at Intermedium: java se, maven, spring, hibernate, mysql, nutch
+I worked with the following technologies while at Intermedium: Java SE, Maven, Spring, Hibernate, MySQL, nutch
 
-h3. <span>Jun 2002 -> Jan 2003</span> &raquo; Webdeveloper - Steinhaug Webdeign
+h3. <span>Jun 2002 -> Jan 2003</span> &raquo; Web developer - Steinhaug Web deign
 
-I worked as a webdeveloper in PHP during the summer of 2002 and also did some work part time during the fall of 2003. 
+I worked as a web developer in PHP during the summer of 2002 and also did some work part time during the fall of 2003. 
 
-h3. <span>Jun 2000 -> Jun 2001</span> &raquo; Webdevloper - Interweb AS
+h3. <span>Jun 2000 -> Jun 2001</span> &raquo; Web developer - Interweb AS
 
-I started working for Interweb AS as a webdeveloper during the summer of 2000. During the fall of 2000 i worked there 50% and wrote a report for a course at school for some of my work. Spring of 2001 saw me working 3 full days a week. I worked on the team that created the Sense.no webportal during this time. I left Interweb to move to my girlfriend in Trondheim. 
+I started working for Interweb AS as a web developer during the summer of 2000. During the fall of 2000 i worked there 50% and wrote a report for a course at school for some of my work. Spring of 2001 saw me working 3 full days a week. I worked on the team that created the Sense.no web portal during this time. I left Interweb to move to my girlfriend in Trondheim. 
 
 h3. <span>Sep 1998 -> Jun 1999</span> &raquo; Boxer Technologies
 
@@ -94,18 +94,18 @@ I worked part time during my first year at College, and during the summer vacati
 
 h2. Volunteer Work
 
-My volunteer work are ether related to my hobby as a roleplaying/boardgamer or to organizing groups for computer professionals/students. 
+My volunteer work are ether related to my hobby as a role-playing/board-gamer or to organizing groups for computer professionals/students. 
 
 * <span>Aug 2008 -> ongoing </span> &raquo; Member of the board "javaBin":http://java.no  Sørlandet
 * <span>Jan 2006 -> Jan 2009</span> &raquo; Leader of "Alea Legio":http://alealegio.no
 * <span>Sep 2004 -> Aug 2005</span> &raquo; Secretary / Storekeeper "Hexagon":http://www.pvv.ntnu.no/hexagon/hexagon/
-* <span>Nov 2004 -> Oct 2005</span> &raquo; Secrectary "Hexcon":http://www.pvv.ntnu.no/hexagon/hexcon/
-* <span>Sep 2002 -> Sep 2004</span> &raquo; Webmonkey "Hexagon":http://www.pvv.ntnu.no/hexagon/hexagon/
+* <span>Nov 2004 -> Oct 2005</span> &raquo; Secretary "Hexcon":http://www.pvv.ntnu.no/hexagon/hexcon/
+* <span>Sep 2002 -> Sep 2004</span> &raquo; Web Editor  "Hexagon":http://www.pvv.ntnu.no/hexagon/hexagon/
 * <span>Jan 2002 -> Aug 2005</span> &raquo; Member of the board "Waarcon":http://waarcon.hexcon.no/
-* <span>Aug 2000 -> Jun 2001</span> &raquo; Webmonkey "Systématicus":http://systematicus.org 
+* <span>Aug 2000 -> Jun 2001</span> &raquo; Web Editor "Systématicus":http://systematicus.org 
 * <span>Aug 1999 -> Jun 2000</span> &raquo; Leader "Systématicus":http://systematicus.org
 
 h2. References and other attachments
 
-Available upon reqest
+Available upon request
 
