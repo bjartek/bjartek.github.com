@@ -37,8 +37,8 @@ h2. Educational History
 * <span>Aug 2003 -> Jan 2006</span> &raquo; Master of Science/Informatics - NTNU
 * <span>Jan 2002 -> Jun 2003</span> &raquo; Bachelor in Informatics - NTNU
 * <span>Aug 2000 -> Jun 2001</span> &raquo; Extension to IT and Information System - Agder College
-* <span>Aug 1998 -> Jun 2000</span> &raquo; It and Information System - Agder College 
-* <span>Aug 1997 -> Jun 1998</span> &raquo; Mandatory Military Service. Sanitation officer
+* <span>Aug 1998 -> Jun 2000</span> &raquo; IT and Information System - Agder College 
+* <span>Aug 1997 -> Jun 1998</span> &raquo; Mandatory Military Service. Medical orderly
 * <span>Aug 1994 -> Jun 1997</span> &raquo; High School
 
 Note that Agder College is now The University of Agder. 
@@ -94,7 +94,7 @@ I worked part time during my first year at College, and during the summer vacati
 
 h2. Volunteer Work
 
-My volunteer work are ether related to my hobby as a role-playing/board-gamer or to organizing groups for computer professionals/students. 
+My volunteer work are either related to my hobby as a role-playing/board-gamer or to organizing groups for computer professionals/students. 
 
 * <span>Aug 2008 -> ongoing </span> &raquo; Member of the board "javaBin":http://java.no  Sørlandet
 * <span>Jan 2006 -> Jan 2009</span> &raquo; Leader of "Alea Legio":http://alealegio.no
