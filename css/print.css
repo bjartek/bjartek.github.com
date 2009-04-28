@@ -1,0 +1,13 @@
+#navlist, #github_banner, .footer {
+	display: none;
+	visibility: hidden;
+}
+
+h2 {
+	border-bottom: 1px solid gray
+}
+
+
+table, tr, td, th {
+	vertical-align: left;
+}
