@@ -76,7 +76,7 @@ Responsibilities
 
 h3. <span>Jan 2006 -> May 2006</span> &raquo; System Developer - Intermedium AS
 
-I started at Intermedium AS after i finished graduating from NTNU in January of 2006. Was part of a small team that was creating software for internal use. The project we started on while I was there was a new support system to manage searches for the key account managers. The system was Java based and the architecture looked very exiting. Unfortunately the department in Grimstad was moved to Oslo and since I had just bought a new apartment I had to find new work.
+I started at Intermedium AS after i finished graduating from NTNU in January of 2006. Was part of a small team that was creating software for internal use. The project we started on while I was there was a new support system to manage searches for the key account managers. The system was Java based and the architecture looked very exiting. In May the company moved to Oslo so I started at GoMobile.
 
 I worked with the following technologies while at Intermedium: Java SE, Maven, Spring, Hibernate, MySQL, nutch
 
