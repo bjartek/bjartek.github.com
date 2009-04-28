@@ -24,7 +24,7 @@ h2. Personal Details
 
 h2. Highlight
 
-Passionate and engaging developer that like to explore new languages, techniques and methodologies to constantly improve myself. Pragmatic approach to learning vs using. Thrives in an environment where I can interact with existing people and give the customer value.
+Passionate and engaging developer that like to explore new languages, techniques and methodologies to constantly improve myself. Pragmatic approach to learning vs using. Thrives in an environment where I can interact with exiting people and give the customer value.
 
 
 h2. Selected Technical kills
