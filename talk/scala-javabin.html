@@ -1,0 +1,467 @@
+---
+layout: talk
+title: 	Scala - En Introduksjon
+---
+<div class="slide">
+		<h1>Scala - En introduksjon</h1>
+		<h3>Bjarte Stien Karlsen</h3>
+		<h4>http://bjartek.org</h4>
+		</div><div class="slide">
+<h1>Agenda</h1>
+<ul>
+<li>Bjarte Stien Karlsen</li>
+<li>Historikk </li>
+<li>Hovedkonsepter </li>
+<li> Scala filosofien </li>
+<li> KODE!  </li>
+<li> http://slides.bjartek.org/scala-javabin/ </li>
+</ul>
+</div>
+<div class="slide">
+<h1>Bjarte Stien Karlsen</h1>
+<ul>
+<li> Jobb: Go Mobile AS </li>
+<li> Utdanning: HiA og NTNU </li>
+<li> interessert i språk og systemer </li>
+<li> scala entusiast, ikke ekspert </li>
+</ul>
+</div>
+<div class="slide">
+<h1>Historikk og bakgrunn</h1>
+<ul>
+<li> Gründer: Martin Odersky </li>
+<li> EFPL, Lusanne Sveits </li>
+<li> startet i 2001 </li>
+<li> ett språk som skalerer med oppgaven </li>
+</ul>
+</div>
+<div class="slide">
+<h1>Hovedkonsepter</h1>
+<ul>
+<li> kompatibelt med java </li>
+<li> konsist </li>
+<li> objektorientert </li>
+<li> funksjonelt </li>
+<li> skalerbart </li>
+</ul>
+</div>
+<div class="slide">
+<h1>Scala filosofien</h1>
+<ul>
+<li> val fremfor var </li>
+<li> metoder uten sideeffekter </li>
+<li> små metoder og klasser som gjør 1 ting </li>
+<li> rekursjon fremfor iterasjon </li>
+<li> tenk funksjonelt </li>
+</ul>
+</div>
+<div class="slide">
+<h1>Hello World</h1>
+<pre name="code" class="scala">object HelloWorld extends Application {
+	println(&quot;Hello World&quot;)
+}
+</pre>
+</div>
+<div class="slide">
+<h1>Person</h1>
+<pre name="code" class="scala">case class Person(var firstName: String, var lastName: String, var age: int) { 
+
+	def name = firstName + &quot; &quot; + lastName
+
+	def name_= (name:String) {
+		val parts = name.split(&quot; &quot;).toList
+		firstName = parts.head
+		lastName = parts.tail.mkString(&quot; &quot;)
+	}
+
+}
+</pre>
+</div>
+<div class="slide">
+<h1>Adressebok</h1>
+<pre name="code" class="scala">class AddressBook(a: Person*) {
+	private val people: List[Person] = a.toList
+
+	def toXHTML =
+		&lt;table cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;
+			&lt;tr&gt;
+				&lt;th&gt;Last Name&lt;/th&gt;
+				&lt;th&gt;First Name&lt;/th&gt;
+			&lt;/tr&gt;
+			{ for (val p &lt;- people) yield
+			&lt;tr&gt;
+				&lt;td&gt; { p.name } &lt;/td&gt;
+				&lt;td&gt; { p.age.toString() } &lt;/td&gt;
+			&lt;/tr&gt; 
+		}
+	&lt;/table&gt;;
+}
+</pre>
+</div>
+<div class="slide">
+<h1>Numerikk</h1>
+<pre name="code" class="scala">/** Return the divisors of n. */
+def divisors(n: Int): List[Int] =
+	for (i &lt;- List.range(1, n+1) if n % i == 0) yield i
+
+/** Is 'n' a prime number? */
+def isPrime(n: Int) = divisors(n).length == 2
+
+/** Return pairs of numbers whose sum is prime. */
+def findNums(n: Int): Iterable[(Int, Int)] = {
+	for (i &lt;- 1 until n;
+			 j &lt;- 1 until (i-1);
+			 if isPrime(i + j)) yield (i, j)
+}
+
+/** Return the sum of the elements of 'xs'. */
+def sum(xs: List[Double]): Double = 
+ xs.foldLeft(0.0) { (x, y) =&gt; x + y }
+
+/** Return the sum of pairwise product of the two lists. */
+def scalProd(xs: List[Double], ys: List[Double]) =  
+ sum(for((x, y) &lt;- xs zip ys) yield x * y);
+
+</pre>
+</div>
+<div class="slide">
+<h1>Quicksort - Imperativ</h1>
+<pre name="code" class="scala">def sort(a: Array[Int]) {
+	def swap(i: Int, j: Int) {
+		val t = a(i); a(i) = a(j); a(j) = t
+	}
+
+	def sort1(l: Int, r: Int) {
+		val pivot = a((l + r) / 2)
+		var i = l
+		var j = r
+		while (i &lt;= j) {
+			while (a(i) &lt; pivot) i += 1
+			while (a(j) &gt; pivot) j -= 1
+			if (i &lt;= j) {
+				swap(i, j)
+				i += 1
+				j -= 1
+			}
+		}
+		if (l &lt; j) sort1(l, j)
+			if (j &lt; r) sort1(i, r)
+	}
+
+	if (a.length &gt; 0) sort1(0, a.length - 1)
+}
+
+</pre>
+</div>
+<div class="slide">
+<h1>Quicksort - Funksjonell</h1>
+<pre name="code" class="scala">def sort(list: List[Int]): List[Int] = {
+	if (list.length &lt; 2)
+		list
+	else {
+		val pivot = list(list.length / 2)
+		sort(list.filter(_ &lt; pivot)) :::
+				 list.filter(_ == pivot) :::
+				 sort(list.filter(_ &gt; pivot))
+	}
+}
+
+</pre>
+</div>
+<div class="slide">
+<h1>Exceptions</h1>
+<pre name="code" class="scala">import java.sql._
+import java.net._
+
+Connection conn = DriverManager.getConnection(&quot;jdbc:hsqldb:mem:testdb&quot;, &quot;sa&quot;, &quot;&quot;)
+try {
+	PreparedStatement stmt = conn.prepareStatement(&quot;INSERT INTO urls (url) VALUES (?)&quot;)
+	stmt.setObject(1, new URL(&quot;http://www.codecommit.com&quot;))
+
+	stmt.executeUpdate()
+	stmt.close()
+} catch {
+	case e:SQLException =&gt; println(&quot;Database error&quot;)
+	case e:MalformedURLException =&gt; println(&quot;Bad URL&quot;)
+
+	case e:_ =&gt; {
+		println(&quot;Some other exception type:&quot;)
+		e.printStackTrace()
+	}
+} finally {
+	conn.close()
+}
+</pre>
+</div>
+<div class="slide">
+<h1>Pingpong 1</h1>
+<pre name="code" class="scala">class Ping(count: Int, pong: Actor) extends Actor {
+	def act() {
+		println(&quot;Ping: Initializing with count &quot;+count+&quot;: &quot;+pong)
+		var pingsLeft = count
+		loop {
+			react {
+				case Start =&gt;
+					println(&quot;Ping: starting.&quot;)
+					pong ! Ping
+					pingsLeft = pingsLeft - 1
+				case SendPing =&gt;
+					pong ! Ping
+					pingsLeft = pingsLeft - 1
+				case Pong =&gt;
+					if (pingsLeft % 1000 == 0)
+						println(&quot;Ping: pong from: &quot;+sender)
+					if (pingsLeft &gt; 0)
+						self ! SendPing
+					 else {
+						println(&quot;Ping: Stop.&quot;)
+						pong ! Stop
+						exit('stop)
+					}
+			}
+		}
+	}
+}
+</pre>
+</div>
+<div class="slide">
+<h1>Pingpong 2</h1>
+<pre name="code" class="scala">class Pong extends Actor {
+	def act() {
+		var pongCount = 0
+		loop {
+			react {
+				case Ping =&gt;
+					if (pongCount % 1000 == 0)
+						println(&quot;Pong: ping &quot;+pongCount+&quot; from &quot;+sender)
+					sender ! Pong
+					pongCount = pongCount + 1
+				case Stop =&gt;
+					println(&quot;Pong: Stop.&quot;)
+					exit('stop)
+			}
+		}
+	}
+}
+</pre>
+</div>
+<div class="slide">
+<h1>Pingpong 3</h1>
+<pre name="code" class="scala">package examples.actors
+
+import scala.actors.Actor
+import scala.actors.Actor._
+
+abstract class PingMessage
+case object Start extends PingMessage
+case object SendPing extends PingMessage
+case object Pong extends PingMessage
+
+abstract class PongMessage
+case object Ping extends PongMessage
+case object Stop extends PongMessage
+
+object pingpong extends Application {
+	val pong = new Pong
+	val ping = new Ping(100000, pong)
+	ping.start
+	pong.start
+	ping ! Start
+}
+</pre>
+</div>
+<div class="slide">
+<h1>Summering - Imperativ</h1>
+<pre name="code" class="scala">// sum all numbers between a and b
+def sumInts(a: Int, b: Int): Int =
+	if (a &gt; b) 0 else a + sumInts(a + 1, b)
+
+//sum the squares of all integers between two given numbers a and b:
+def square(x: Int): Int = x * x
+def sumSquares(a: Int, b: Int): Int =
+	if (a &gt; b) 0 else square(a) + sumSquares(a + 1, b)
+
+//sum the powers 2n of all integers n between two given numbers a and b:
+def powerOfTwo(x: Int): Int = if (x == 0) 1 else 2 * powerOfTwo(x - 1)
+def sumPowersOfTwo(a: Int, b: Int): Int =
+	if (a &gt; b) 0 else powerOfTwo(a) + sumPowersOfTwo(a + 1, b)
+</pre>
+</div>
+<div class="slide">
+<h1>Summering - Funksjonell</h1>
+<pre name="code" class="scala">// sum all numbers between a and b
+def sumInts(a: Int, b: Int): Int = sum(id, a, b)
+
+ //sum the squares of all integers between two given numbers a and b:
+def sumSquares(a: Int, b: Int): Int = sum(square, a, b)
+
+//sum the powers 2n of all integers n between two given numbers a and b:
+def sumPowersOfTwo(a: Int, b: Int): Int = sum(powerOfTwo, a, b)
+
+def sum(f: Int =&gt; Int, a: Int, b: Int): Int =
+	if (a &gt; b) 0 else f(a) + sum(f, a + 1, b)
+def id(x: Int): Int = x
+def square(x: Int): Int = x * x
+def powerOfTwo(x: Int): Int = if (x == 0) 1 else 2 * powerOfTwo(x - 1)
+</pre>
+</div>
+<div class="slide">
+<h1>Summering - Funksjonell - Anonyme Funksjoner</h1>
+<pre name="code" class="scala">def sum(f: Int =&gt; Int, a: Int, b: Int): Int =
+	if (a &gt; b) 0 else f(a) + sum(f, a + 1, b)
+def powerOfTwo(x: Int): Int = if (x == 0) 1 else 2 * powerOfTwo(x - 1)
+
+//sum the squares of all integers between two given numbers a and b:
+def sumInts(a: Int, b: Int): Int = sum((x: Int) =&gt; x, a, b)
+
+// sum all numbers between a and b
+def sumSquares(a: Int, b: Int): Int = sum((x: Int) =&gt; x * x, a, b)
+
+//sum the powers 2n of all integers n between two given numbers a and b:
+def sumPowersOfTwo(a: Int, b: Int): Int = sum(powerOfTwo, a, b)
+
+</pre>
+</div>
+<div class="slide">
+<h1>Summering - Funksjonell - Currying</h1>
+<pre name="code" class="scala">def sum(f: Int =&gt; Int): (Int, Int) =&gt; Int = {
+	def sumF(a: Int, b: Int): Int =
+		if (a &gt; b) 0 else f(a) + sumF(a + 1, b)
+	sumF
+}
+def powerOfTwo(x: Int): Int = if (x == 0) 1 else 2 * powerOfTwo(x - 1)
+
+// sum all numbers between a and b
+def sumInts = sum(x =&gt; x)
+
+//sum the squares of all integers between two given numbers a and b:
+def sumSquares = sum(x =&gt; x * x)
+
+//sum the powers 2n of all integers n between two given numbers a and b:
+def sumPowersOfTwo = sum(powerOfTwo)
+
+
+</pre>
+</div>
+<div class="slide">
+<h1>Summering - Funksjonell - Hale rekursjon</h1>
+<pre name="code" class="scala">def sum(f: Int =&gt; Int)(a: Int, b: Int): Int = {
+	def sum1(a: Int, result: Int): Int = {
+		if (a &gt; b) 
+			result
+		else 
+			sum1(a + 1, f(a) + result)
+	}
+	sum1(a, 0)
+}
+
+def powerOfTwo(x: Int): Int = if (x == 0) 1 else 2 * powerOfTwo(x - 1)
+
+// sum all numbers between a and b
+def sumInts = sum(x =&gt; x) _
+
+//sum the squares of all integers between two given numbers a and b:
+def sumSquares = sum(x =&gt; x * x) _
+
+//sum the powers 2n of all integers n between two given numbers a and b:
+def sumPowersOfTwo = sum(powerOfTwo) _
+
+
+</pre>
+</div>
+<div class="slide">
+<h1>Mixins</h1>
+<pre name="code" class="scala">abstract class AbsIterator {
+	type T
+	def hasNext: Boolean
+	def next: T
+}
+
+trait RichIterator extends AbsIterator {
+	def foreach(f: T =&gt; Unit) { while (hasNext) f(next) }
+}
+
+class StringIterator(s: String) extends AbsIterator {
+	type T = Char
+	private var i = 0
+	def hasNext = i &lt; s.length()
+	def next = { val ch = s charAt i; i += 1; ch }
+}
+
+object StringIteratorTest extends Application {
+	def main(args: Array[String]) {  
+		class Iter extends StringIterator(args(0)) with RichIterator
+		val iter = new Iter
+		iter foreach println
+	}
+}
+</pre>
+</div>
+<div class="slide">
+<h1>Mixins 2</h1>
+<pre name="code" class="scala">
+	class Animal
+	trait Furry extends Animal
+	trait HasLegs extends Animal
+	trait FourLegged extends HasLegs
+	class Cat extends Animal with Furry with FourLegged
+	</pre><br />
+	<img src="cat.png" /></div>
+<div class="slide">
+<h1>Extractors - Option types</h1>
+<pre name="code" class="scala">object EMail {
+
+	def apply(user: String, domain: String) = user +&quot;@&quot;+ domain
+
+	def unapply(str: String): Option[(String, String)] = {
+		val parts = str split &quot;@&quot;
+		if (parts.length == 2) Some(parts(0), parts(1)) else None
+	}
+
+}
+
+def hi(mail:String) = mail match {
+		case EMail(name, domain) =&gt; &quot;hello &quot; + name + &quot; at &quot; + domain
+		case _ =&gt; error(&quot;not an email&quot;)
+}
+
+println(hi(&quot;foo@bar.com&quot;)) // prints hello foo at bar.com
+println(hi(&quot;not a valid mail&quot;)) // error
+</pre>
+</div>
+<div class="slide">
+<h1>StringRepeater - implicits</h1>
+<pre name="code" class="scala">class StringRepeated(original: String){
+	def *(times: Int) = {
+		def multiply(times: Int, accumulated: String): String = {
+			if(times &gt; 1) 
+				multiply(times - 1, accumulated + original)
+			 else 
+				original + accumulated
+		}
+		multiply(times, &quot;&quot;)
+	}
+}
+
+val repeated = (new StringRepeated(&quot;nice&quot;)) * 3
+// == &quot;nicenicenice&quot;
+
+implicit def string2repeated(x: String) = new StringRepeated(x)
+
+val repeated = &quot;nice&quot; * 3
+// == &quot;nicenicenice&quot;
+</pre>
+</div>
+<div class="slide">
+	<h1>Ressurser</h1>
+	<ul>
+		<li> <a href="http://scala.java.no">scala.java.no</a> </li>
+		<li> <a href="http://lister.java.no/mailman/listinfo/scala">scala@java.no</a> </li>
+		<li> <a href="http://www.artima.com/shop/programming_in_scala">Programming in scala</a> </li>
+		<li> #scala@Freenode </li>
+		<li> <a href="http://scala-lang.org">scala-lang.org</a> </li>
+		<li> <a href="http://www.drmaciver.com/planetscala/">Planet Scala</a> </li>
+		<li> <a href="http://delicious.com/meus/scala">delicious.com/meus/scala</a> </li>
+	</ul>
+</div>
+
