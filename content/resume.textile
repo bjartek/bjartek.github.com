@@ -24,7 +24,7 @@ h2. Personal Details
 
 h2. Highlight
 
-Passionate and engaged developer who like to explore new languages, techniques and methodologies to constantly improve myself. A pragmatic mindset when it commes to applying new knowledge in day to day work. Thrives in an environment where I can interact with exciting people and give the customer value.
+Passionate and engaged developer who likes to explore new languages, techniques and methodologies to constantly improve myself. A pragmatic mindset when it comes to applying new knowledge in day to day work. Thrives in an environment where I can interact with exciting people and give the customer value.
 
 
 h2. Selected Technical kills
@@ -60,11 +60,11 @@ Started at Go Mobile in May, 2006. Worked on various web applications with a sta
 Created and maintained a set of services (Restful/HTTPRPC) to ease development of web content for mobile terminals. 
 * inbox -> receive SMS/MMS from mobile terminals
 * outbox -> send SMS/MMS and other messages to mobile terminals
-* terminal -> get a terminals capabilities. screensize, technology support etc. 
-* imageproxy -> convert images to correct screen dimmentions easily
+* terminal -> get a terminals capabilities. screen size, technology support etc. 
+* imageproxy -> convert images to correct screen dimentions easily
 * ad -> customize ads from Finn.no/Tinde.no to mobile terminals
 
-Some standalone applications
+Some stand alone applications
 * mailing list with SMS as transport for Team Expert
 * location-based raw material balancing for Massebalansen
 
@@ -96,7 +96,7 @@ h2. Volunteer Work
 
 My volunteer work are either related to my hobby as a role-playing/board-gamer or to organizing groups for computer professionals/students. 
 
-* <span>Aug 2008 -> ongoing </span> &raquo; Member of the board "javaBin":http://java.no  Sørlandet
+* <span>Aug 2008 -> present </span> &raquo; Member of the board "javaBin":http://java.no  Sørlandet
 * <span>Jan 2006 -> Jan 2009</span> &raquo; Leader of "Alea Legio":http://alealegio.no
 * <span>Sep 2004 -> Aug 2005</span> &raquo; Secretary / Storekeeper "Hexagon":http://www.pvv.ntnu.no/hexagon/hexagon/
 * <span>Nov 2004 -> Oct 2005</span> &raquo; Secretary "Hexcon":http://www.pvv.ntnu.no/hexagon/hexcon/
