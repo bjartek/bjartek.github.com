@@ -89,4 +89,13 @@ float: left;
 
 #menu {
 	margin-bottom: 2px;
+	font-size: small;
+}
+
+table {
+	font-size: small;
+}
+
+#help-window h2 {
+	font-size: 1.1em;
 }
