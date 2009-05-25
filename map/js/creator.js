@@ -15,14 +15,26 @@ $(document).ready(function(){
         $("#selection").hide();
     });
 
+		$("#reset").click(function(e) {
+		   $(".ui-selected").each(function() {
+            if(this.nodeName == "DIV") {
+                var id = $(this).attr("id");
+                grid[id] = defaultCell;
+            }
+			});
+       grid = repaint(numRows, numCols, grid, true);
+			 $("#selection").hide();
+
+		});
+
     $("#tile_activate").click(function() {
         var mode;
          if($("#tile_activate").attr("value") == "Enable") {
             mode = true;
-            $("#tile_activate").attr("value", "Disable").removeClass("ui-icon-check").addClass("ui-icon-cancel");
+            $("#tile_activate").attr("value", "Disable").switchClass("ui-icon-locked", "ui-icon-unlocked");
           } else {
             mode = false;
-             $("#tile_activate").attr("value", "Enable").removeClass("ui-icon-cancel").addClass("ui-icon-check");
+            $("#tile_activate").attr("value", "Enable").switchClass("ui-icon-unlocked", "ui-icon-locked");
           }
 
 
@@ -40,7 +52,7 @@ $(document).ready(function(){
             
             $("#selection").show();
             var id = $(ui.selected).attr("id");
-            var cell = $.extend(empty, defaultCell, grid[id]);
+            var cell = grid[id];
 
             $("#tile_desc").text(cell.desc);
             $("#tile_note").text(cell.note);
@@ -77,9 +89,9 @@ $(document).ready(function(){
 
 
             if(cell.enabled == false) {
-              $("#tile_activate").attr("value", "Enable").removeClass("ui-icon-cancel").addClass("ui-icon-check");
+             	$("#tile_activate").attr("value", "Enable").switchClass("ui-icon-unlocked", "ui-icon-locked");
              } else {
-              $("#tile_activate").attr("value", "Disable").removeClass("ui-icon-check").addClass("ui-icon-cancel");
+            	$("#tile_activate").attr("value", "Disable").switchClass("ui-icon-locked", "ui-icon-unlocked");
              }
             
            $(".tiles").mousemove(function(e) {

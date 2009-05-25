@@ -17,7 +17,7 @@
 <h1> OutsiderTools - Map Creator</h1>
 
 
-<div class="fg-toolbar ui-widget-header ui-corner-all ui-helper-clearfix">
+<div id="menu" class="fg-toolbar ui-widget-header ui-corner-all ui-helper-clearfix">
     <div class="fg-buttonset ui-helper-clearfix">
         <a href="#" class="fg-button ui-state-default fg-button-icon-solo ui-corner-all" title="Remove Col"><span class="ui-icon ui-icon-arrowthick-1-w" id="rmcol"></span> Remove Col</a>
         <a href="#" class="fg-button ui-state-default fg-button-icon-solo ui-corner-all" title="Add Row"><span class="ui-icon ui-icon-arrowthick-1-s" id="addrow"></span> Add Row</a>
@@ -28,15 +28,13 @@
     <div class="fg-buttonset ui-helper-clearfix">
         <a href="#" class="fg-button ui-state-default fg-button-icon-solo ui-corner-all" title="Help"><span class="ui-icon ui-icon-help" id="help"></span> Help</a>
     </div>
+	</div>
 
-    <div id="selection">
+<div id="selection" class="fg-toolbar ui-widget-header ui-corner-all ui-helper-clearfix">
         <div class="fg-buttonset ui-helper-clearfix">
-            <a href="#" class="fg-button ui-state-default fg-button-icon-solo
-                ui-corner-all" title="Clear selection"><span class="ui-icon
-                    ui-icon-close" id="clear"></span> Clear selection</a>
-            <a href="#" class="fg-button ui-state-default fg-button-icon-solo
-                ui-corner-all" title="Status toggle"><span class="ui-icon
-                    ui-icon-cancel" id="tile_activate"></span> Status toggle</a>
+            <a href="#" class="fg-button ui-state-default fg-button-icon-solo ui-corner-all" title="Clear selection"><span class="ui-icon ui-icon-close" id="clear"></span> Clear selection</a>
+            <a href="#" class="fg-button ui-state-default fg-button-icon-solo ui-corner-all" title="Reset selection"><span class="ui-icon ui-icon-trash" id="reset"></span> Reset selection</a>
+            <a href="#" class="fg-button ui-state-default fg-button-icon-solo ui-corner-all" title="Set as ocupiable/not ocupiablee"><span class="ui-icon ui-icon-unlocked" id="tile_activate"></span> Status toggle</a>
             <div class="fl edit">
                 <span>Note:</span>
                 <div class="eip" id="tile_note">Click to edit</div>
@@ -48,8 +46,6 @@
             </div>
         </div>
     </div>
-
-</div>
 
 <div id="rows">
     <div class="firstrow"></div>

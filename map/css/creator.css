@@ -37,8 +37,9 @@ width: 510px;
 #map div {
     font-size: small;
     color: white;
+		background-color: black;
     float: left;
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 0px;
     margin: 0px;
     width: 32px;
@@ -54,6 +55,7 @@ div.ui-selected {
 #selection {
     visibiligy: hidden;
     display: none;
+		margin-bottom: 2px;
 }
 .fl {
 float: left;
@@ -75,4 +77,16 @@ float: left;
 .help {
     margin-left: 5px;
     margin-right: 100px;
+}
+
+.fl span {
+	font-style: italic;
+}
+#selection .fg-buttonset {
+	height: 30px;
+
+}
+
+#menu {
+	margin-bottom: 2px;
 }
