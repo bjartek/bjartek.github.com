@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/smoothness/jquery-ui-1.7.1.custom.css" /> 
+        <script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.7.1.custom.min.js"></script>
+        <script type="text/javascript" src="js/jquery.jeditable.js"></script>
+        <script type="text/javascript" src="js/map.js""></script>
+        <script type="text/javascript" src="js/creator.js""></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/tiles.css" />
+        <link rel="stylesheet" type="text/css" href="css/creator.css" />
+        <title> OutsiderTools - Mapcreator</title>
+    </head>
+    <body>
+   <script type="text/javascript">
+    </script>
+<h1> OutsiderTools - Map Creator</h1>
+
+
+<div class="fg-toolbar ui-widget-header ui-corner-all ui-helper-clearfix">
+    <div class="fg-buttonset ui-helper-clearfix">
+        <a href="#" class="fg-button ui-state-default fg-button-icon-solo ui-corner-all" title="Remove Col"><span class="ui-icon ui-icon-arrowthick-1-w" id="rmcol"></span> Remove Col</a>
+        <a href="#" class="fg-button ui-state-default fg-button-icon-solo ui-corner-all" title="Add Row"><span class="ui-icon ui-icon-arrowthick-1-s" id="addrow"></span> Add Row</a>
+        <a href="#" class="fg-button ui-state-default fg-button-icon-solo ui-corner-all" title="Remove Row"><span class="ui-icon ui-icon-arrowthick-1-n" id="rmrow"></span> Remove Row</a>
+        <a href="#" class="fg-button ui-state-default fg-button-icon-solo ui-corner-all" title="Add  Col"><span class="ui-icon ui-icon-arrowthick-1-e" id="addcol"></span> Add Col</a>
+    </div>
+
+    <div class="fg-buttonset ui-helper-clearfix">
+        <a href="#" class="fg-button ui-state-default fg-button-icon-solo ui-corner-all" title="Help"><span class="ui-icon ui-icon-help" id="help"></span> Help</a>
+    </div>
+
+    <div id="selection">
+        <div class="fg-buttonset ui-helper-clearfix">
+            <a href="#" class="fg-button ui-state-default fg-button-icon-solo
+                ui-corner-all" title="Clear selection"><span class="ui-icon
+                    ui-icon-close" id="clear"></span> Clear selection</a>
+            <a href="#" class="fg-button ui-state-default fg-button-icon-solo
+                ui-corner-all" title="Status toggle"><span class="ui-icon
+                    ui-icon-cancel" id="tile_activate"></span> Status toggle</a>
+            <div class="fl edit">
+                <span>Note:</span>
+                <div class="eip" id="tile_note">Click to edit</div>
+            </div>
+
+            <div class="fl descr">
+                <span>Description:</span>
+                <div class="eip" id="tile_desc">Click to edit</div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="rows">
+    <div class="firstrow"></div>
+</div>
+<div class="map">
+     <div id="cols"></div>
+     <div id="map"></div>
+</div>
+
+<div class="first"> </div>
+<div id="preview">
+</div>
+
+<div id="tabs">
+    <ul>
+        <li><a href="#dungeon">Dungeon</a></li>
+        <li><a href="#edging1_">Edging1</a></li>
+        <li><a href="#edging2_">Edging2</a></li>
+        <li><a href="#edging3_">Edging3</a></li>
+        <li><a href="#extra">Extra</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#grounds">Grounds</a></li>
+    </ul>
+
+    <div class="tiles" id="dungeon"></div>
+    <div class="tiles" id="edging1_"></div>
+    <div class="tiles" id="edging2_"> </div>
+    <div class="tiles" id="edging3_"> </div>
+    <div class="tiles" id="extra"> </div>
+    <div class="tiles" id="features"> </div>
+    <div class="tiles" id="grounds"> </div>
+</div>
+</body>
+
+</html>
