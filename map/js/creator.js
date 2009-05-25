@@ -15,6 +15,10 @@ $(document).ready(function(){
         $("#selection").hide();
     });
 
+		$("#help").click(function(e) {
+			$("#help-window").dialog({ position: 'top'});
+			});
+
 		$("#reset").click(function(e) {
 		   $(".ui-selected").each(function() {
             if(this.nodeName == "DIV") {
