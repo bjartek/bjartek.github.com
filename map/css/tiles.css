@@ -1372,7 +1372,7 @@
 .uniques8x9 { background: transparent url(../tiles/dg_uniques32.gif)  -256px -224px no-repeat; }
 .uniques8x10 { background: transparent url(../tiles/dg_uniques32.gif) -288px -224px no-repeat; }
 
-.uniques9x1 {background: transparent url(../tiles/dg_uniques32.gif)        0 -256px no-repeat; }
+.uniques9x1 {background: green url(../tiles/dg_uniques32.gif)        0 -256px no-repeat; }
 .uniques9x2 { background: transparent url(../tiles/dg_uniques32.gif)   -32px -256px no-repeat; }
 .uniques9x3 { background: transparent url(../tiles/dg_uniques32.gif)   -64px -256px no-repeat; }
 .uniques9x4 { background: transparent url(../tiles/dg_uniques32.gif)   -96px -256px no-repeat; }

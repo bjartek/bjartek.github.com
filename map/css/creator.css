@@ -21,6 +21,7 @@ body {
 
 #tabs {
 width: 510px;
+float: left;
 }
 
 #preview {
@@ -37,7 +38,7 @@ width: 510px;
 #map div {
     font-size: small;
     color: white;
-		background-color: black;
+		background-color: green;
     float: left;
     border: 1px solid white;
     padding: 0px;
@@ -98,4 +99,8 @@ table {
 
 #help-window h2 {
 	font-size: 1.1em;
+}
+
+.map {
+	margin-right: 10px;
 }

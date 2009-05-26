@@ -16,7 +16,7 @@ $(document).ready(function(){
     });
 
 		$("#help").click(function(e) {
-			$("#help-window").dialog({ position: 'top'});
+			$("#help-window").dialog({ position: 'right'});
 			});
 
 		$("#reset").click(function(e) {

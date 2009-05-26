@@ -42,7 +42,7 @@ function paintElement(id, obj) {
 
 var empty = {}
 var defaultCell = {
-	tile: "grounds2x1", 
+	tile: "edging1_16x2", 
 	desc: "",
 	note: "",
 	enabled: true,
