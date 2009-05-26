@@ -6,8 +6,23 @@ $(document).ready(function(){
 
     $("#tabs").tabs();
 
+		var previewTile = "";
+
     $(".tiles").click(function(e) {
         $(".tiles").unbind("mousemove");
+				$(".ui-selected").each(function() {
+					var element = $(this);
+					var id = element.attr("id");
+
+					  var oldTile = findTile(element);
+						if(oldTile == previewTile){
+								return this;
+						}
+						grid[id].tile = previewTile;
+						element.removeClass(oldTile);
+						element.addClass(previewTile);
+				});
+
     });
 
     $("#clear").click(function(e) {
@@ -104,21 +119,8 @@ $(document).ready(function(){
                 var actualX = e.pageX - offset.left;;
                 var x = 1 + Math.floor(actualX / 32.0);
                 var y = 1 + Math.floor(actualY / 32.0);
-                var cssClass = this.id + y + "x" + x;
+								previewTile =  this.id + y + "x" + x;
 
-                $(".ui-selected").each(function() {
-                  var element = $(this);
-                  var id = element.attr("id");
-
-                  var oldTile = findTile(element);
-                    if(oldTile == cssClass){
-                        return this;
-                    }
-                    grid[id].tile = cssClass;
-
-                    element.removeClass(oldTile);
-                    element.addClass(cssClass);
-                });
             });
         }
     });
