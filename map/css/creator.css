@@ -1,3 +1,4 @@
+/*
 #dungeon {  background: transparent url(../tiles/dg_dungeon32.gif)        0    0 no-repeat;   height: 320px; width: 288px; }
 #edging1_ {  background: transparent url(../tiles/dg_edging1_32.gif)        0    0 no-repeat; height: 512px; width: 256px; }
 #edging2_ {  background: transparent url(../tiles/dg_edging2_32.gif)        0    0 no-repeat; height: 546px; width: 256px; }
@@ -5,6 +6,13 @@
 #extra {  background: transparent url(../tiles/dg_extra32.gif)        0    0 no-repeat; height: 512px; width: 288px; }
 #features {  background: transparent url(../tiles/dg_features32.gif)        0    0 no-repeat; height: 418px; width:288px; }
 #grounds {  background: transparent url(../tiles/dg_grounds32.gif)        0    0 no-repeat; height: 610px; width: 288px }}
+
+*/
+#dungeon {  background: transparent url(../tiles/ot_dungeon.png)        0    0 no-repeat;   height: 288px; width: 320px; }
+#forrest {  background: transparent url(../tiles/ot_forrest.png)        0    0 no-repeat; height: 352px; width: 320px; }
+#desert {  background: transparent url(../tiles/ot_desert.png)        0    0 no-repeat; height: 384px; width: 320px; }
+#water {  background: transparent url(../tiles/ot_water.png)        0    0 no-repeat; height: 384px; width: 320px; }
+
 
 #tiles {
     width: 600px;
@@ -20,7 +28,7 @@ body {
 
 
 #tabs {
-width: 510px;
+width: 330px;
 float: left;
 }
 
