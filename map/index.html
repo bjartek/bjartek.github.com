@@ -4,38 +4,149 @@
         <script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
         <script type="text/javascript" src="js/jquery-ui-1.7.1.custom.min.js"></script>
         <script type="text/javascript" src="js/jquery.jeditable.js"></script>
-        <script type="text/javascript" src="js/map.js""></script>
-        <script type="text/javascript" src="js/battlemap.js""></script>
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" href="css/tiles.css" />
+				<script type="text/javascript" src="js/ot.map.js"></script>
+				<script type="text/javascript" src="js/ot.battlemap.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/ot_map.css" />
+        <link rel="stylesheet" type="text/css" href="css/ot_tiles.css" />
+
         <title> OutsiderTools - Battlemat</title>
     </head>
     <body>
-        <div id="panel">
 
-            <h3>Roller/Monstre</h3>
-            <ul id="element"></ul>
+				<div id="panel"></div>
+				<div id="map"></div>
 
-             <h3>Tile</h3>
-             <div class="element" id="tile"></div>
-             <div id="tile_inspector"> Klikk på en tile for å se info her. </div>
+				<script type="text/javascript">
+var elements = {
+	bal : { pos:"i3", name : "Baal", icon: "monster1_6x2",  info : "Baal. Tiefling Wizard lvl1", priv_info : "Farlig sjarmerende"},
+	tha : { pos:"i4", name : "Tharsul",   icon: "classm10x5", info : "Tharsul. Sjeledød Shaman", priv_info : "Vil at ting skal dø" },
+	bro : { pos:"e6", name : "Tharsul - Bror",  icon:"undead2x7", info : "Bror. Tharsul sin spirit" },
+	nok : { pos:"f4", name : "Nokar", icon: "classm2x8",   info : "Nokar. Deva Avenger. Bloddied. Prone.", priv_info : "Liker å gutse" },
+	nik : { pos:"h4", name : "Nikodamus",   icon: "classm2x4", info : "Nikodamus. Human spydkriger.", priv_info : "Glory of battle" },
+	pre : { pos:"d8", icon : "humans2x1", name : "Prest",   info : "Prest", priv_info : "Muahaha" },
+	fa1 : { pos:"g4", icon : "humans2x5", text : "1",  name : "Fanatiker 1",  info : "Fanatiker. Bloodied", priv_info : "asdads"},
+	fa2 : { pos:"g5", icon : "humans2x5", text : "2", name : "Fanatiker 2",  info : "Fanatiker. Bloodied", priv_info : "asdads"},
+	ku1 : { pos:"g3", icon : "humans2x4", text : "1", name : "Kultist 1" },
+	ku2 : { show: false, pos : " g3", name : "Kultist 2",  info : "Fanatiker. Bloodied", priv_info : "asdads"},
+	ku5 : { pos:"e5", icon : "humans2x4", text : "5", name: "Kultist 5",   info : "Fanatiker. Bloodied", priv_info : "asdads"},
 
-            <h3>Rolle</h3>
-            <div class="editable" id="inspector">Klikk på en spillfigur for å se
-            info her</div>
+}
+grid = {
+a1 : {}, 
+ b1 : {},
+ c1 : {}, 
+ d1 : {desc : "DT. Stone floor, Wooden table", note : "B"}, 
+ e1 : {}, 
+ f1 : {}, 
+ g1 : {}, 
+ h1 : { tile: false}, 
+ i1 : { tile: false}, 
+ j1 : { tile: false}, 
 
-        </div>
+ a2 : {}, 
+ b2 : {}, 
+ c2 : {note: "S", desc : "Stone floor, wooden chair" }, 
+ d2 : {desc : "DT. Stone floor, Wooden table", note : "B"}, 
+ e2 : {note: "S", desc : "Stone floor, wooden chair" }, 
+ f2 : {}, 
+ g2 : {note: "S", desc : "Stone floor, wooden chair" }, 
+ h2 : { tile: false}, 
+ i2 : { tile: false}, 
+ j2 : { tile: false}, 
 
-        <div id="rows">
-            <div class="firstrow"></div>
-        </div>
-        <div class="map">
-            <div id="cols">
-            </div>
-            <div id="map">
-            </div>
-        </div>
+ a3 : {}, 
+ b3 : {}, 
+ c3 : {note: "S", desc : "Stone floor, wooden chair" }, 
+ d3 : {"desc" : "DT. Stone floor, Wooden table", note : "B"}, 
+ e3 : {}, 
+ f3 : {}, 
+ g3 : {}, 
+ h3 : { tile: false}, 
+ i3 : {},
+ j3 : { tile: false}, 
 
-            </body>
+ a4 : {}, 
+ b4 : {}, 
+ c4 : {}, 
+ d4 : {}, 
+ e4 : {}, 
+ f4 : {}, 
+ g4 : {}, 
+ h4 : {}, 
+ i4 : {}, 
+ j4 : { tile: false}, 
+ 
+ a5 : {}, 
+ b5 : {}, 
+ c5 : {}, 
+ d5 : {},
+ e5 : {}, 
+ f5 : {}, 
+ g5 : {}, 
+ h5 : { tile: false}, 
+ i5 : { tile: false}, 
+ j5 : { tile: false}, 
+ 
+ a6 : {}, 
+ b6 : {}, 
+ c6 : {}, 
+ d6 : {},
+ e6 : {}, 
+ f6 : {"desc" : "DT. Stone floor, Wooden table", note : "B"}, 
+ g6 : {"desc" : "DT. Stone floor, Wooden table", note : "B"}, 
+ h6 : { tile: false}, 
+ i6 : { tile: false}, 
+ j6 : { tile: false}, 
+ 
+ a7 : {}, 
+ b7 : {}, 
+ c7 : {}, 
+ d7 : {},
+ e7 : {}, 
+ f7 : {note: "S", desc : "Stone floor, wooden chair" }, 
+ g7 : {}, 
+ h7 : { tile: false}, 
+ i7 : { tile: false}, 
+ j7 : { tile: false}, 
+ 
+ a8 : { tile: false}, 
+ b8 : { tile: false}, 
+ c8 : { tile: false}, 
+ d8 : {},
+ e8 : { tile: false}, 
+ f8 : { tile: false}, 
+ g8 : { tile: false}, 
+ h8 : { tile: false}, 
+ i8 : { tile: false}, 
+ j8 : { tile: false}, 
+ 
+ a9 : {}, 
+ b9 : {}, 
+ c9 : {}, 
+ d9 : {},
+ e9 : {}, 
+ f9 : {}, 
+ g9 : {}, 
+ h9 : { tile: false}, 
+ i9 : { tile: false}, 
+ j9 : { tile: false}, 
+ 
+ a10 : {}, 
+ b10 : {}, 
+ c10 : {}, 
+ d10 : {}, 
+ e10 : {}, 
+ f10 : {}, 
+ g10 : {}, 
+ h10 : { tile: false}, 
+ i10 : { tile: false}, 
+ j10 : { tile: false}, 
+};
 
+
+						$(document).ready(function(){
+								var map = new ot.BattleMap({grid: grid, element: elements});
+					})
+				</script>
+   </body>
 </html>

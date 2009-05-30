@@ -167,6 +167,7 @@ $(document).ready(function(){
 
 	$(".tile").click(function(i) {
 		inspect_tile(i.currentTarget.id);
+
 	});
 
     $("#element").find("li").click(function(i) {
