@@ -12,12 +12,16 @@ ot.BattleMap = function( args ) {
   this.options = {
 	  grid: {},
 		element: {},
-		div: "#panel"
+		div: "#panel",
+	  rows: 10,
+		cols: 10
 	};
 
   jQuery.extend(true, this.options, args);
 	this.map = new ot.Map({ 
 			grid: this.options.grid, 
+			rows: this.options.rows, 
+			cols: this.options.cols,
 			inspector : { previewText: "#ot_tile_inspector", previewTile: "#ot_tile_preview" }
 	});
 	this.element = this.options.element;
