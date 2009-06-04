@@ -1406,6 +1406,163 @@
 .uniques9x9 { background: transparent url(../tiles/dg_uniques32.gif)  -256px -256px no-repeat; }
 .uniques9x10 { background: transparent url(../tiles/dg_uniques32.gif) -288px -256px no-repeat; }
 
+
+.out1x1 {background: transparent url(../tiles/hhout.png)        0    0 no-repeat; }
+.out1x2 { background: transparent url(../tiles/hhout.png)   -32px    0 no-repeat; }
+.out1x3 { background: transparent url(../tiles/hhout.png)   -64px    0 no-repeat; }
+.out1x4 { background: transparent url(../tiles/hhout.png)   -96px    0 no-repeat; }
+.out1x5 { background: transparent url(../tiles/hhout.png)  -128px    0 no-repeat; }
+.out1x6 { background: transparent url(../tiles/hhout.png)  -160px    0 no-repeat; }
+.out1x7 { background: transparent url(../tiles/hhout.png)  -192px    0 no-repeat; }
+.out1x8 { background: transparent url(../tiles/hhout.png)  -224px    0 no-repeat; }
+.out1x9 { background: transparent url(../tiles/hhout.png)  -256px    0 no-repeat; }
+.out1x10 { background: transparent url(../tiles/hhout.png) -288px    0 no-repeat; }
+.out1x11 { background: transparent url(../tiles/hhout.png) -320px    0 no-repeat; }
+.out1x12 { background: transparent url(../tiles/hhout.png) -352px    0 no-repeat; }
+
+.out2x1 {background: transparent url(../tiles/hhout.png)        0  -32px no-repeat; }
+.out2x2 { background: transparent url(../tiles/hhout.png)   -32px  -32px no-repeat; }
+.out2x3 { background: transparent url(../tiles/hhout.png)   -64px  -32px no-repeat; }
+.out2x4 { background: transparent url(../tiles/hhout.png)   -96px  -32px no-repeat; }
+.out2x5 { background: transparent url(../tiles/hhout.png)  -128px  -32px no-repeat; }
+.out2x6 { background: transparent url(../tiles/hhout.png)  -160px  -32px no-repeat; }
+.out2x7 { background: transparent url(../tiles/hhout.png)  -192px  -32px no-repeat; }
+.out2x8 { background: transparent url(../tiles/hhout.png)  -224px  -32px no-repeat; }
+.out2x9 { background: transparent url(../tiles/hhout.png)  -256px  -32px no-repeat; }
+.out2x10 { background: transparent url(../tiles/hhout.png) -288px  -32px no-repeat; }
+.out2x11 { background: transparent url(../tiles/hhout.png) -320px  -32px no-repeat; }
+.out2x12 { background: transparent url(../tiles/hhout.png) -352px  -32px no-repeat; }
+
+.out3x1 {background: transparent url(../tiles/hhout.png)        0  -64px no-repeat; }
+.out3x2 { background: transparent url(../tiles/hhout.png)   -32px  -64px no-repeat; }
+.out3x3 { background: transparent url(../tiles/hhout.png)   -64px  -64px no-repeat; }
+.out3x4 { background: transparent url(../tiles/hhout.png)   -96px  -64px no-repeat; }
+.out3x5 { background: transparent url(../tiles/hhout.png)  -128px  -64px no-repeat; }
+.out3x6 { background: transparent url(../tiles/hhout.png)  -160px  -64px no-repeat; }
+.out3x7 { background: transparent url(../tiles/hhout.png)  -192px  -64px no-repeat; }
+.out3x8 { background: transparent url(../tiles/hhout.png)  -224px  -64px no-repeat; }
+.out3x9 { background: transparent url(../tiles/hhout.png)  -256px  -64px no-repeat; }
+.out3x10 { background: transparent url(../tiles/hhout.png) -288px  -64px no-repeat; }
+.out3x11 { background: transparent url(../tiles/hhout.png) -320px  -64px no-repeat; }
+.out3x12 { background: transparent url(../tiles/hhout.png) -352px  -64px no-repeat; }
+
+.out4x1 {background: transparent url(../tiles/hhout.png)        0  -96px no-repeat; }
+.out4x2 { background: transparent url(../tiles/hhout.png)   -32px  -96px no-repeat; }
+.out4x3 { background: transparent url(../tiles/hhout.png)   -64px  -96px no-repeat; }
+.out4x4 { background: transparent url(../tiles/hhout.png)   -96px  -96px no-repeat; }
+.out4x5 { background: transparent url(../tiles/hhout.png)  -128px  -96px no-repeat; }
+.out4x6 { background: transparent url(../tiles/hhout.png)  -160px  -96px no-repeat; }
+.out4x7 { background: transparent url(../tiles/hhout.png)  -192px  -96px no-repeat; }
+.out4x8 { background: transparent url(../tiles/hhout.png)  -224px  -96px no-repeat; }
+.out4x9 { background: transparent url(../tiles/hhout.png)  -256px  -96px no-repeat; }
+.out4x10 { background: transparent url(../tiles/hhout.png) -288px  -96px no-repeat; }
+.out4x11 { background: transparent url(../tiles/hhout.png) -320px  -96px no-repeat; }
+.out4x12 { background: transparent url(../tiles/hhout.png) -352px  -96px no-repeat; }
+
+.out5x1 {background: transparent url(../tiles/hhout.png)        0 -128px no-repeat; }
+.out5x2 { background: transparent url(../tiles/hhout.png)   -32px -128px no-repeat; }
+.out5x3 { background: transparent url(../tiles/hhout.png)   -64px -128px no-repeat; }
+.out5x4 { background: transparent url(../tiles/hhout.png)   -96px -128px no-repeat; }
+.out5x5 { background: transparent url(../tiles/hhout.png)  -128px -128px no-repeat; }
+.out5x6 { background: transparent url(../tiles/hhout.png)  -160px -128px no-repeat; }
+.out5x7 { background: transparent url(../tiles/hhout.png)  -192px -128px no-repeat; }
+.out5x8 { background: transparent url(../tiles/hhout.png)  -224px -128px no-repeat; }
+.out5x9 { background: transparent url(../tiles/hhout.png)  -256px -128px no-repeat; }
+.out5x10 { background: transparent url(../tiles/hhout.png) -288px -128px no-repeat; }
+.out5x11 { background: transparent url(../tiles/hhout.png) -320px -128px no-repeat; }
+.out5x12 { background: transparent url(../tiles/hhout.png) -352px -128px no-repeat; }
+
+.out6x1 {background: transparent url(../tiles/hhout.png)        0 -160px no-repeat; }
+.out6x2 { background: transparent url(../tiles/hhout.png)   -32px -160px no-repeat; }
+.out6x3 { background: transparent url(../tiles/hhout.png)   -64px -160px no-repeat; }
+.out6x4 { background: transparent url(../tiles/hhout.png)   -96px -160px no-repeat; }
+.out6x5 { background: transparent url(../tiles/hhout.png)  -128px -160px no-repeat; }
+.out6x6 { background: transparent url(../tiles/hhout.png)  -160px -160px no-repeat; }
+.out6x7 { background: transparent url(../tiles/hhout.png)  -192px -160px no-repeat; }
+.out6x8 { background: transparent url(../tiles/hhout.png)  -224px -160px no-repeat; }
+.out6x9 { background: transparent url(../tiles/hhout.png)  -256px -160px no-repeat; }
+.out6x10 { background: transparent url(../tiles/hhout.png) -288px -160px no-repeat; }
+.out6x11 { background: transparent url(../tiles/hhout.png) -320px -160px no-repeat; }
+.out6x12 { background: transparent url(../tiles/hhout.png) -352px -160px no-repeat; }
+
+.out7x1 {background: transparent url(../tiles/hhout.png)        0 -192px no-repeat; }
+.out7x2 { background: transparent url(../tiles/hhout.png)   -32px -192px no-repeat; }
+.out7x3 { background: transparent url(../tiles/hhout.png)   -64px -192px no-repeat; }
+.out7x4 { background: transparent url(../tiles/hhout.png)   -96px -192px no-repeat; }
+.out7x5 { background: transparent url(../tiles/hhout.png)  -128px -192px no-repeat; }
+.out7x6 { background: transparent url(../tiles/hhout.png)  -160px -192px no-repeat; }
+.out7x7 { background: transparent url(../tiles/hhout.png)  -192px -192px no-repeat; }
+.out7x8 { background: transparent url(../tiles/hhout.png)  -224px -192px no-repeat; }
+.out7x9 { background: transparent url(../tiles/hhout.png)  -256px -192px no-repeat; }
+.out7x10 { background: transparent url(../tiles/hhout.png) -288px -192px no-repeat; }
+.out7x11 { background: transparent url(../tiles/hhout.png) -320px -192px no-repeat; }
+.out7x12 { background: transparent url(../tiles/hhout.png) -352px -192px no-repeat; }
+
+.out8x1 {background: transparent url(../tiles/hhout.png)        0 -224px no-repeat; }
+.out8x2 { background: transparent url(../tiles/hhout.png)   -32px -224px no-repeat; }
+.out8x3 { background: transparent url(../tiles/hhout.png)   -64px -224px no-repeat; }
+.out8x4 { background: transparent url(../tiles/hhout.png)   -96px -224px no-repeat; }
+.out8x5 { background: transparent url(../tiles/hhout.png)  -128px -224px no-repeat; }
+.out8x6 { background: transparent url(../tiles/hhout.png)  -160px -224px no-repeat; }
+.out8x7 { background: transparent url(../tiles/hhout.png)  -192px -224px no-repeat; }
+.out8x8 { background: transparent url(../tiles/hhout.png)  -224px -224px no-repeat; }
+.out8x9 { background: transparent url(../tiles/hhout.png)  -256px -224px no-repeat; }
+.out8x10 { background: transparent url(../tiles/hhout.png) -288px -224px no-repeat; }
+.out8x11 { background: transparent url(../tiles/hhout.png) -320px -224px no-repeat; }
+.out8x12 { background: transparent url(../tiles/hhout.png) -352px -224px no-repeat; }
+
+.out9x1 {background: transparent url(../tiles/hhout.png)        0 -256px no-repeat; }
+.out9x2 { background: transparent url(../tiles/hhout.png)   -32px -256px no-repeat; }
+.out9x3 { background: transparent url(../tiles/hhout.png)   -64px -256px no-repeat; }
+.out9x4 { background: transparent url(../tiles/hhout.png)   -96px -256px no-repeat; }
+.out9x5 { background: transparent url(../tiles/hhout.png)  -128px -256px no-repeat; }
+.out9x6 { background: transparent url(../tiles/hhout.png)  -160px -256px no-repeat; }
+.out9x7 { background: transparent url(../tiles/hhout.png)  -192px -256px no-repeat; }
+.out9x8 { background: transparent url(../tiles/hhout.png)  -224px -256px no-repeat; }
+.out9x9 { background: transparent url(../tiles/hhout.png)  -256px -256px no-repeat; }
+.out9x10 { background: transparent url(../tiles/hhout.png) -288px -256px no-repeat; }
+.out9x11 { background: transparent url(../tiles/hhout.png) -320px -256px no-repeat; }
+.out9x12 { background: transparent url(../tiles/hhout.png) -352px -256px no-repeat; }
+
+.out10x1 {background: transparent url(../tiles/hhout.png)        0 -288px no-repeat; }
+.out10x2 { background: transparent url(../tiles/hhout.png)   -32px -288px no-repeat; }
+.out10x3 { background: transparent url(../tiles/hhout.png)   -64px -288px no-repeat; }
+.out10x4 { background: transparent url(../tiles/hhout.png)   -96px -288px no-repeat; }
+.out10x5 { background: transparent url(../tiles/hhout.png)  -128px -288px no-repeat; }
+.out10x6 { background: transparent url(../tiles/hhout.png)  -160px -288px no-repeat; }
+.out10x7 { background: transparent url(../tiles/hhout.png)  -192px -288px no-repeat; }
+.out10x8 { background: transparent url(../tiles/hhout.png)  -224px -288px no-repeat; }
+.out10x9 { background: transparent url(../tiles/hhout.png)  -256px -288px no-repeat; }
+.out10x10 { background: transparent url(../tiles/hhout.png) -288px -288px no-repeat; }
+.out10x11 { background: transparent url(../tiles/hhout.png) -320px -288px no-repeat; }
+.out10x12 { background: transparent url(../tiles/hhout.png) -352px -288px no-repeat; }
+
+.out11x1 {background: transparent url(../tiles/hhout.png)        0 -320px no-repeat; }
+.out11x2 { background: transparent url(../tiles/hhout.png)   -32px -320px no-repeat; }
+.out11x3 { background: transparent url(../tiles/hhout.png)   -64px -320px no-repeat; }
+.out11x4 { background: transparent url(../tiles/hhout.png)   -96px -320px no-repeat; }
+.out11x5 { background: transparent url(../tiles/hhout.png)  -128px -320px no-repeat; }
+.out11x6 { background: transparent url(../tiles/hhout.png)  -160px -320px no-repeat; }
+.out11x7 { background: transparent url(../tiles/hhout.png)  -192px -320px no-repeat; }
+.out11x8 { background: transparent url(../tiles/hhout.png)  -224px -320px no-repeat; }
+.out11x9 { background: transparent url(../tiles/hhout.png)  -256px -320px no-repeat; }
+.out11x10 { background: transparent url(../tiles/hhout.png) -288px -320px no-repeat; }
+.out11x11 { background: transparent url(../tiles/hhout.png) -320px -320px no-repeat; }
+.out11x12 { background: transparent url(../tiles/hhout.png) -352px -320px no-repeat; }
+
+.out12x1 {background: transparent url(../tiles/hhout.png)        0 -352px no-repeat; }
+.out12x2 { background: transparent url(../tiles/hhout.png)   -32px -352px no-repeat; }
+.out12x3 { background: transparent url(../tiles/hhout.png)   -64px -352px no-repeat; }
+.out12x4 { background: transparent url(../tiles/hhout.png)   -96px -352px no-repeat; }
+.out12x5 { background: transparent url(../tiles/hhout.png)  -128px -352px no-repeat; }
+.out12x6 { background: transparent url(../tiles/hhout.png)  -160px -352px no-repeat; }
+.out12x7 { background: transparent url(../tiles/hhout.png)  -192px -352px no-repeat; }
+.out12x8 { background: transparent url(../tiles/hhout.png)  -224px -352px no-repeat; }
+.out12x9 { background: transparent url(../tiles/hhout.png)  -256px -352px no-repeat; }
+.out12x10 { background: transparent url(../tiles/hhout.png) -288px -352px no-repeat; }
+.out12x11 { background: transparent url(../tiles/hhout.png) -320px -352px no-repeat; }
+.out12x12 { background: transparent url(../tiles/hhout.png) -352px -352px no-repeat; }
+
 .des1x1 {background: transparent url(../tiles/hhdes.png)        0    0 no-repeat; }
 .des1x2 { background: transparent url(../tiles/hhdes.png)   -32px    0 no-repeat; }
 .des1x3 { background: transparent url(../tiles/hhdes.png)   -64px    0 no-repeat; }
