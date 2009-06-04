@@ -1405,3 +1405,265 @@
 .uniques9x8 { background: transparent url(../tiles/dg_uniques32.gif)  -224px -256px no-repeat; }
 .uniques9x9 { background: transparent url(../tiles/dg_uniques32.gif)  -256px -256px no-repeat; }
 .uniques9x10 { background: transparent url(../tiles/dg_uniques32.gif) -288px -256px no-repeat; }
+
+.des1x1 {background: transparent url(../tiles/hhdes.png)        0    0 no-repeat; }
+.des1x2 { background: transparent url(../tiles/hhdes.png)   -32px    0 no-repeat; }
+.des1x3 { background: transparent url(../tiles/hhdes.png)   -64px    0 no-repeat; }
+.des1x4 { background: transparent url(../tiles/hhdes.png)   -96px    0 no-repeat; }
+.des1x5 { background: transparent url(../tiles/hhdes.png)  -128px    0 no-repeat; }
+.des1x6 { background: transparent url(../tiles/hhdes.png)  -160px    0 no-repeat; }
+.des1x7 { background: transparent url(../tiles/hhdes.png)  -192px    0 no-repeat; }
+.des1x8 { background: transparent url(../tiles/hhdes.png)  -224px    0 no-repeat; }
+.des1x9 { background: transparent url(../tiles/hhdes.png)  -256px    0 no-repeat; }
+.des1x10 { background: transparent url(../tiles/hhdes.png) -288px    0 no-repeat; }
+.des1x11 { background: transparent url(../tiles/hhdes.png) -320px    0 no-repeat; }
+.des1x12 { background: transparent url(../tiles/hhdes.png) -352px    0 no-repeat; }
+
+.des2x1 {background: transparent url(../tiles/hhdes.png)        0  -32px no-repeat; }
+.des2x2 { background: transparent url(../tiles/hhdes.png)   -32px  -32px no-repeat; }
+.des2x3 { background: transparent url(../tiles/hhdes.png)   -64px  -32px no-repeat; }
+.des2x4 { background: transparent url(../tiles/hhdes.png)   -96px  -32px no-repeat; }
+.des2x5 { background: transparent url(../tiles/hhdes.png)  -128px  -32px no-repeat; }
+.des2x6 { background: transparent url(../tiles/hhdes.png)  -160px  -32px no-repeat; }
+.des2x7 { background: transparent url(../tiles/hhdes.png)  -192px  -32px no-repeat; }
+.des2x8 { background: transparent url(../tiles/hhdes.png)  -224px  -32px no-repeat; }
+.des2x9 { background: transparent url(../tiles/hhdes.png)  -256px  -32px no-repeat; }
+.des2x10 { background: transparent url(../tiles/hhdes.png) -288px  -32px no-repeat; }
+.des2x11 { background: transparent url(../tiles/hhdes.png) -320px  -32px no-repeat; }
+.des2x12 { background: transparent url(../tiles/hhdes.png) -352px  -32px no-repeat; }
+
+.des3x1 {background: transparent url(../tiles/hhdes.png)        0  -64px no-repeat; }
+.des3x2 { background: transparent url(../tiles/hhdes.png)   -32px  -64px no-repeat; }
+.des3x3 { background: transparent url(../tiles/hhdes.png)   -64px  -64px no-repeat; }
+.des3x4 { background: transparent url(../tiles/hhdes.png)   -96px  -64px no-repeat; }
+.des3x5 { background: transparent url(../tiles/hhdes.png)  -128px  -64px no-repeat; }
+.des3x6 { background: transparent url(../tiles/hhdes.png)  -160px  -64px no-repeat; }
+.des3x7 { background: transparent url(../tiles/hhdes.png)  -192px  -64px no-repeat; }
+.des3x8 { background: transparent url(../tiles/hhdes.png)  -224px  -64px no-repeat; }
+.des3x9 { background: transparent url(../tiles/hhdes.png)  -256px  -64px no-repeat; }
+.des3x10 { background: transparent url(../tiles/hhdes.png) -288px  -64px no-repeat; }
+.des3x11 { background: transparent url(../tiles/hhdes.png) -320px  -64px no-repeat; }
+.des3x12 { background: transparent url(../tiles/hhdes.png) -352px  -64px no-repeat; }
+
+.des4x1 {background: transparent url(../tiles/hhdes.png)        0  -96px no-repeat; }
+.des4x2 { background: transparent url(../tiles/hhdes.png)   -32px  -96px no-repeat; }
+.des4x3 { background: transparent url(../tiles/hhdes.png)   -64px  -96px no-repeat; }
+.des4x4 { background: transparent url(../tiles/hhdes.png)   -96px  -96px no-repeat; }
+.des4x5 { background: transparent url(../tiles/hhdes.png)  -128px  -96px no-repeat; }
+.des4x6 { background: transparent url(../tiles/hhdes.png)  -160px  -96px no-repeat; }
+.des4x7 { background: transparent url(../tiles/hhdes.png)  -192px  -96px no-repeat; }
+.des4x8 { background: transparent url(../tiles/hhdes.png)  -224px  -96px no-repeat; }
+.des4x9 { background: transparent url(../tiles/hhdes.png)  -256px  -96px no-repeat; }
+.des4x10 { background: transparent url(../tiles/hhdes.png) -288px  -96px no-repeat; }
+.des4x11 { background: transparent url(../tiles/hhdes.png) -320px  -96px no-repeat; }
+.des4x12 { background: transparent url(../tiles/hhdes.png) -352px  -96px no-repeat; }
+
+.des5x1 {background: transparent url(../tiles/hhdes.png)        0 -128px no-repeat; }
+.des5x2 { background: transparent url(../tiles/hhdes.png)   -32px -128px no-repeat; }
+.des5x3 { background: transparent url(../tiles/hhdes.png)   -64px -128px no-repeat; }
+.des5x4 { background: transparent url(../tiles/hhdes.png)   -96px -128px no-repeat; }
+.des5x5 { background: transparent url(../tiles/hhdes.png)  -128px -128px no-repeat; }
+.des5x6 { background: transparent url(../tiles/hhdes.png)  -160px -128px no-repeat; }
+.des5x7 { background: transparent url(../tiles/hhdes.png)  -192px -128px no-repeat; }
+.des5x8 { background: transparent url(../tiles/hhdes.png)  -224px -128px no-repeat; }
+.des5x9 { background: transparent url(../tiles/hhdes.png)  -256px -128px no-repeat; }
+.des5x10 { background: transparent url(../tiles/hhdes.png) -288px -128px no-repeat; }
+.des5x11 { background: transparent url(../tiles/hhdes.png) -320px -128px no-repeat; }
+.des5x12 { background: transparent url(../tiles/hhdes.png) -352px -128px no-repeat; }
+
+.des6x1 {background: transparent url(../tiles/hhdes.png)        0 -160px no-repeat; }
+.des6x2 { background: transparent url(../tiles/hhdes.png)   -32px -160px no-repeat; }
+.des6x3 { background: transparent url(../tiles/hhdes.png)   -64px -160px no-repeat; }
+.des6x4 { background: transparent url(../tiles/hhdes.png)   -96px -160px no-repeat; }
+.des6x5 { background: transparent url(../tiles/hhdes.png)  -128px -160px no-repeat; }
+.des6x6 { background: transparent url(../tiles/hhdes.png)  -160px -160px no-repeat; }
+.des6x7 { background: transparent url(../tiles/hhdes.png)  -192px -160px no-repeat; }
+.des6x8 { background: transparent url(../tiles/hhdes.png)  -224px -160px no-repeat; }
+.des6x9 { background: transparent url(../tiles/hhdes.png)  -256px -160px no-repeat; }
+.des6x10 { background: transparent url(../tiles/hhdes.png) -288px -160px no-repeat; }
+.des6x11 { background: transparent url(../tiles/hhdes.png) -320px -160px no-repeat; }
+.des6x12 { background: transparent url(../tiles/hhdes.png) -352px -160px no-repeat; }
+
+.des7x1 {background: transparent url(../tiles/hhdes.png)        0 -192px no-repeat; }
+.des7x2 { background: transparent url(../tiles/hhdes.png)   -32px -192px no-repeat; }
+.des7x3 { background: transparent url(../tiles/hhdes.png)   -64px -192px no-repeat; }
+.des7x4 { background: transparent url(../tiles/hhdes.png)   -96px -192px no-repeat; }
+.des7x5 { background: transparent url(../tiles/hhdes.png)  -128px -192px no-repeat; }
+.des7x6 { background: transparent url(../tiles/hhdes.png)  -160px -192px no-repeat; }
+.des7x7 { background: transparent url(../tiles/hhdes.png)  -192px -192px no-repeat; }
+.des7x8 { background: transparent url(../tiles/hhdes.png)  -224px -192px no-repeat; }
+.des7x9 { background: transparent url(../tiles/hhdes.png)  -256px -192px no-repeat; }
+.des7x10 { background: transparent url(../tiles/hhdes.png) -288px -192px no-repeat; }
+.des7x11 { background: transparent url(../tiles/hhdes.png) -320px -192px no-repeat; }
+.des7x12 { background: transparent url(../tiles/hhdes.png) -352px -192px no-repeat; }
+
+.des8x1 {background: transparent url(../tiles/hhdes.png)        0 -224px no-repeat; }
+.des8x2 { background: transparent url(../tiles/hhdes.png)   -32px -224px no-repeat; }
+.des8x3 { background: transparent url(../tiles/hhdes.png)   -64px -224px no-repeat; }
+.des8x4 { background: transparent url(../tiles/hhdes.png)   -96px -224px no-repeat; }
+.des8x5 { background: transparent url(../tiles/hhdes.png)  -128px -224px no-repeat; }
+.des8x6 { background: transparent url(../tiles/hhdes.png)  -160px -224px no-repeat; }
+.des8x7 { background: transparent url(../tiles/hhdes.png)  -192px -224px no-repeat; }
+.des8x8 { background: transparent url(../tiles/hhdes.png)  -224px -224px no-repeat; }
+.des8x9 { background: transparent url(../tiles/hhdes.png)  -256px -224px no-repeat; }
+.des8x10 { background: transparent url(../tiles/hhdes.png) -288px -224px no-repeat; }
+.des8x11 { background: transparent url(../tiles/hhdes.png) -320px -224px no-repeat; }
+.des8x12 { background: transparent url(../tiles/hhdes.png) -352px -224px no-repeat; }
+
+.des9x1 {background: transparent url(../tiles/hhdes.png)        0 -256px no-repeat; }
+.des9x2 { background: transparent url(../tiles/hhdes.png)   -32px -256px no-repeat; }
+.des9x3 { background: transparent url(../tiles/hhdes.png)   -64px -256px no-repeat; }
+.des9x4 { background: transparent url(../tiles/hhdes.png)   -96px -256px no-repeat; }
+.des9x5 { background: transparent url(../tiles/hhdes.png)  -128px -256px no-repeat; }
+.des9x6 { background: transparent url(../tiles/hhdes.png)  -160px -256px no-repeat; }
+.des9x7 { background: transparent url(../tiles/hhdes.png)  -192px -256px no-repeat; }
+.des9x8 { background: transparent url(../tiles/hhdes.png)  -224px -256px no-repeat; }
+.des9x9 { background: transparent url(../tiles/hhdes.png)  -256px -256px no-repeat; }
+.des9x10 { background: transparent url(../tiles/hhdes.png) -288px -256px no-repeat; }
+.des9x11 { background: transparent url(../tiles/hhdes.png) -320px -256px no-repeat; }
+.des9x12 { background: transparent url(../tiles/hhdes.png) -352px -256px no-repeat; }
+
+.div11x1 {background: transparent url(../tiles/hhdiv1.png)        0    0 no-repeat; }
+.div11x2 { background: transparent url(../tiles/hhdiv1.png)   -32px    0 no-repeat; }
+.div11x3 { background: transparent url(../tiles/hhdiv1.png)   -64px    0 no-repeat; }
+.div11x4 { background: transparent url(../tiles/hhdiv1.png)   -96px    0 no-repeat; }
+.div11x5 { background: transparent url(../tiles/hhdiv1.png)  -128px    0 no-repeat; }
+.div11x6 { background: transparent url(../tiles/hhdiv1.png)  -160px    0 no-repeat; }
+.div11x7 { background: transparent url(../tiles/hhdiv1.png)  -192px    0 no-repeat; }
+.div11x8 { background: transparent url(../tiles/hhdiv1.png)  -224px    0 no-repeat; }
+
+.div12x1 {background: transparent url(../tiles/hhdiv1.png)        0  -32px no-repeat; }
+.div12x2 { background: transparent url(../tiles/hhdiv1.png)   -32px  -32px no-repeat; }
+.div12x3 { background: transparent url(../tiles/hhdiv1.png)   -64px  -32px no-repeat; }
+.div12x4 { background: transparent url(../tiles/hhdiv1.png)   -96px  -32px no-repeat; }
+.div12x5 { background: transparent url(../tiles/hhdiv1.png)  -128px  -32px no-repeat; }
+.div12x6 { background: transparent url(../tiles/hhdiv1.png)  -160px  -32px no-repeat; }
+.div12x7 { background: transparent url(../tiles/hhdiv1.png)  -192px  -32px no-repeat; }
+.div12x8 { background: transparent url(../tiles/hhdiv1.png)  -224px  -32px no-repeat; }
+
+.div13x1 {background: transparent url(../tiles/hhdiv1.png)        0  -64px no-repeat; }
+.div13x2 { background: transparent url(../tiles/hhdiv1.png)   -32px  -64px no-repeat; }
+.div13x3 { background: transparent url(../tiles/hhdiv1.png)   -64px  -64px no-repeat; }
+.div13x4 { background: transparent url(../tiles/hhdiv1.png)   -96px  -64px no-repeat; }
+.div13x5 { background: transparent url(../tiles/hhdiv1.png)  -128px  -64px no-repeat; }
+.div13x6 { background: transparent url(../tiles/hhdiv1.png)  -160px  -64px no-repeat; }
+.div13x7 { background: transparent url(../tiles/hhdiv1.png)  -192px  -64px no-repeat; }
+.div13x8 { background: transparent url(../tiles/hhdiv1.png)  -224px  -64px no-repeat; }
+
+.div14x1 {background: transparent url(../tiles/hhdiv1.png)        0  -96px no-repeat; }
+.div14x2 { background: transparent url(../tiles/hhdiv1.png)   -32px  -96px no-repeat; }
+.div14x3 { background: transparent url(../tiles/hhdiv1.png)   -64px  -96px no-repeat; }
+.div14x4 { background: transparent url(../tiles/hhdiv1.png)   -96px  -96px no-repeat; }
+.div14x5 { background: transparent url(../tiles/hhdiv1.png)  -128px  -96px no-repeat; }
+.div14x6 { background: transparent url(../tiles/hhdiv1.png)  -160px  -96px no-repeat; }
+.div14x7 { background: transparent url(../tiles/hhdiv1.png)  -192px  -96px no-repeat; }
+.div14x8 { background: transparent url(../tiles/hhdiv1.png)  -224px  -96px no-repeat; }
+
+.div15x1 {background: transparent url(../tiles/hhdiv1.png)        0 -128px no-repeat; }
+.div15x2 { background: transparent url(../tiles/hhdiv1.png)   -32px -128px no-repeat; }
+.div15x3 { background: transparent url(../tiles/hhdiv1.png)   -64px -128px no-repeat; }
+.div15x4 { background: transparent url(../tiles/hhdiv1.png)   -96px -128px no-repeat; }
+.div15x5 { background: transparent url(../tiles/hhdiv1.png)  -128px -128px no-repeat; }
+.div15x6 { background: transparent url(../tiles/hhdiv1.png)  -160px -128px no-repeat; }
+.div15x7 { background: transparent url(../tiles/hhdiv1.png)  -192px -128px no-repeat; }
+.div15x8 { background: transparent url(../tiles/hhdiv1.png)  -224px -128px no-repeat; }
+
+.div16x1 {background: transparent url(../tiles/hhdiv1.png)        0 -160px no-repeat; }
+.div16x2 { background: transparent url(../tiles/hhdiv1.png)   -32px -160px no-repeat; }
+.div16x3 { background: transparent url(../tiles/hhdiv1.png)   -64px -160px no-repeat; }
+.div16x4 { background: transparent url(../tiles/hhdiv1.png)   -96px -160px no-repeat; }
+.div16x5 { background: transparent url(../tiles/hhdiv1.png)  -128px -160px no-repeat; }
+.div16x6 { background: transparent url(../tiles/hhdiv1.png)  -160px -160px no-repeat; }
+.div16x7 { background: transparent url(../tiles/hhdiv1.png)  -192px -160px no-repeat; }
+.div16x8 { background: transparent url(../tiles/hhdiv1.png)  -224px -160px no-repeat; }
+
+.div17x1 {background: transparent url(../tiles/hhdiv1.png)        0 -192px no-repeat; }
+.div17x2 { background: transparent url(../tiles/hhdiv1.png)   -32px -192px no-repeat; }
+.div17x3 { background: transparent url(../tiles/hhdiv1.png)   -64px -192px no-repeat; }
+.div17x4 { background: transparent url(../tiles/hhdiv1.png)   -96px -192px no-repeat; }
+.div17x5 { background: transparent url(../tiles/hhdiv1.png)  -128px -192px no-repeat; }
+.div17x6 { background: transparent url(../tiles/hhdiv1.png)  -160px -192px no-repeat; }
+.div17x7 { background: transparent url(../tiles/hhdiv1.png)  -192px -192px no-repeat; }
+.div17x8 { background: transparent url(../tiles/hhdiv1.png)  -224px -192px no-repeat; }
+
+.div18x1 {background: transparent url(../tiles/hhdiv1.png)        0 -224px no-repeat; }
+.div18x2 { background: transparent url(../tiles/hhdiv1.png)   -32px -224px no-repeat; }
+.div18x3 { background: transparent url(../tiles/hhdiv1.png)   -64px -224px no-repeat; }
+.div18x4 { background: transparent url(../tiles/hhdiv1.png)   -96px -224px no-repeat; }
+.div18x5 { background: transparent url(../tiles/hhdiv1.png)  -128px -224px no-repeat; }
+.div18x6 { background: transparent url(../tiles/hhdiv1.png)  -160px -224px no-repeat; }
+.div18x7 { background: transparent url(../tiles/hhdiv1.png)  -192px -224px no-repeat; }
+.div18x8 { background: transparent url(../tiles/hhdiv1.png)  -224px -224px no-repeat; }
+
+.div21x1 {background: transparent url(../tiles/hhdiv2.png)        0    0 no-repeat; }
+.div21x2 { background: transparent url(../tiles/hhdiv2.png)   -32px    0 no-repeat; }
+.div21x3 { background: transparent url(../tiles/hhdiv2.png)   -64px    0 no-repeat; }
+.div21x4 { background: transparent url(../tiles/hhdiv2.png)   -96px    0 no-repeat; }
+.div21x5 { background: transparent url(../tiles/hhdiv2.png)  -128px    0 no-repeat; }
+.div21x6 { background: transparent url(../tiles/hhdiv2.png)  -160px    0 no-repeat; }
+.div21x7 { background: transparent url(../tiles/hhdiv2.png)  -192px    0 no-repeat; }
+.div21x8 { background: transparent url(../tiles/hhdiv2.png)  -224px    0 no-repeat; }
+
+.div22x1 {background: transparent url(../tiles/hhdiv2.png)        0  -32px no-repeat; }
+.div22x2 { background: transparent url(../tiles/hhdiv2.png)   -32px  -32px no-repeat; }
+.div22x3 { background: transparent url(../tiles/hhdiv2.png)   -64px  -32px no-repeat; }
+.div22x4 { background: transparent url(../tiles/hhdiv2.png)   -96px  -32px no-repeat; }
+.div22x5 { background: transparent url(../tiles/hhdiv2.png)  -128px  -32px no-repeat; }
+.div22x6 { background: transparent url(../tiles/hhdiv2.png)  -160px  -32px no-repeat; }
+.div22x7 { background: transparent url(../tiles/hhdiv2.png)  -192px  -32px no-repeat; }
+.div22x8 { background: transparent url(../tiles/hhdiv2.png)  -224px  -32px no-repeat; }
+
+.div23x1 {background: transparent url(../tiles/hhdiv2.png)        0  -64px no-repeat; }
+.div23x2 { background: transparent url(../tiles/hhdiv2.png)   -32px  -64px no-repeat; }
+.div23x3 { background: transparent url(../tiles/hhdiv2.png)   -64px  -64px no-repeat; }
+.div23x4 { background: transparent url(../tiles/hhdiv2.png)   -96px  -64px no-repeat; }
+.div23x5 { background: transparent url(../tiles/hhdiv2.png)  -128px  -64px no-repeat; }
+.div23x6 { background: transparent url(../tiles/hhdiv2.png)  -160px  -64px no-repeat; }
+.div23x7 { background: transparent url(../tiles/hhdiv2.png)  -192px  -64px no-repeat; }
+.div23x8 { background: transparent url(../tiles/hhdiv2.png)  -224px  -64px no-repeat; }
+
+.div24x1 {background: transparent url(../tiles/hhdiv2.png)        0  -96px no-repeat; }
+.div24x2 { background: transparent url(../tiles/hhdiv2.png)   -32px  -96px no-repeat; }
+.div24x3 { background: transparent url(../tiles/hhdiv2.png)   -64px  -96px no-repeat; }
+.div24x4 { background: transparent url(../tiles/hhdiv2.png)   -96px  -96px no-repeat; }
+.div24x5 { background: transparent url(../tiles/hhdiv2.png)  -128px  -96px no-repeat; }
+.div24x6 { background: transparent url(../tiles/hhdiv2.png)  -160px  -96px no-repeat; }
+.div24x7 { background: transparent url(../tiles/hhdiv2.png)  -192px  -96px no-repeat; }
+.div24x8 { background: transparent url(../tiles/hhdiv2.png)  -224px  -96px no-repeat; }
+
+.div25x1 {background: transparent url(../tiles/hhdiv2.png)        0 -128px no-repeat; }
+.div25x2 { background: transparent url(../tiles/hhdiv2.png)   -32px -128px no-repeat; }
+.div25x3 { background: transparent url(../tiles/hhdiv2.png)   -64px -128px no-repeat; }
+.div25x4 { background: transparent url(../tiles/hhdiv2.png)   -96px -128px no-repeat; }
+.div25x5 { background: transparent url(../tiles/hhdiv2.png)  -128px -128px no-repeat; }
+.div25x6 { background: transparent url(../tiles/hhdiv2.png)  -160px -128px no-repeat; }
+.div25x7 { background: transparent url(../tiles/hhdiv2.png)  -192px -128px no-repeat; }
+.div25x8 { background: transparent url(../tiles/hhdiv2.png)  -224px -128px no-repeat; }
+
+.div26x1 {background: transparent url(../tiles/hhdiv2.png)        0 -160px no-repeat; }
+.div26x2 { background: transparent url(../tiles/hhdiv2.png)   -32px -160px no-repeat; }
+.div26x3 { background: transparent url(../tiles/hhdiv2.png)   -64px -160px no-repeat; }
+.div26x4 { background: transparent url(../tiles/hhdiv2.png)   -96px -160px no-repeat; }
+.div26x5 { background: transparent url(../tiles/hhdiv2.png)  -128px -160px no-repeat; }
+.div26x6 { background: transparent url(../tiles/hhdiv2.png)  -160px -160px no-repeat; }
+.div26x7 { background: transparent url(../tiles/hhdiv2.png)  -192px -160px no-repeat; }
+.div26x8 { background: transparent url(../tiles/hhdiv2.png)  -224px -160px no-repeat; }
+
+.div27x1 {background: transparent url(../tiles/hhdiv2.png)        0 -192px no-repeat; }
+.div27x2 { background: transparent url(../tiles/hhdiv2.png)   -32px -192px no-repeat; }
+.div27x3 { background: transparent url(../tiles/hhdiv2.png)   -64px -192px no-repeat; }
+.div27x4 { background: transparent url(../tiles/hhdiv2.png)   -96px -192px no-repeat; }
+.div27x5 { background: transparent url(../tiles/hhdiv2.png)  -128px -192px no-repeat; }
+.div27x6 { background: transparent url(../tiles/hhdiv2.png)  -160px -192px no-repeat; }
+.div27x7 { background: transparent url(../tiles/hhdiv2.png)  -192px -192px no-repeat; }
+.div27x8 { background: transparent url(../tiles/hhdiv2.png)  -224px -192px no-repeat; }
+
+.div28x1 {background: transparent url(../tiles/hhdiv2.png)        0 -224px no-repeat; }
+.div28x2 { background: transparent url(../tiles/hhdiv2.png)   -32px -224px no-repeat; }
+.div28x3 { background: transparent url(../tiles/hhdiv2.png)   -64px -224px no-repeat; }
+.div28x4 { background: transparent url(../tiles/hhdiv2.png)   -96px -224px no-repeat; }
+.div28x5 { background: transparent url(../tiles/hhdiv2.png)  -128px -224px no-repeat; }
+.div28x6 { background: transparent url(../tiles/hhdiv2.png)  -160px -224px no-repeat; }
+.div28x7 { background: transparent url(../tiles/hhdiv2.png)  -192px -224px no-repeat; }
+.div28x8 { background: transparent url(../tiles/hhdiv2.png)  -224px -224px no-repeat; }
+

@@ -4,9 +4,9 @@
         <script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
         <script type="text/javascript" src="js/jquery-ui-1.7.1.custom.min.js"></script>
         <script type="text/javascript" src="js/jquery.jeditable.js"></script>
-        <script type="text/javascript" src="js/map.js""></script>
-        <script type="text/javascript" src="js/creator.js""></script>
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script type="text/javascript" src="js/ot.map.js""></script>
+        <script type="text/javascript" src="js/ot.creator.js""></script>
+        <link rel="stylesheet" type="text/css" href="css/ot_map.css" />
         <link rel="stylesheet" type="text/css" href="css/ot_tiles.css" />
         <link rel="stylesheet" type="text/css" href="css/creator.css" />
         <title> OutsiderTools - Mapcreator</title>
@@ -46,25 +46,27 @@
         </div>
     </div>
 
-<div id="rows">
-    <div class="firstrow"></div>
-</div>
-<div class="map">
-     <div id="cols" class="ui-helper-clearfix"></div>
-     <div id="map" class="ui-helper-clearfix"></div>
-</div>
-<div id="tabs">
+	<div id="map"></div>
+	<div id="tabs">
     <ul>
         <li><a href="#forrest">Forrest</a></li>
         <li><a href="#desert">Desert</a></li>
         <li><a href="#water">Water</a></li>
         <li><a href="#dungeon">Dungeon</a></li>
+        <li><a href="#out">HH Out</a></li>
+        <li><a href="#des">HH Desert</a></li>
+        <li><a href="#div1">HH Div1</a></li>
+        <li><a href="#div2">HH Div2</a></li>
     </ul>
 
     <div class="tiles" id="forrest"></div>
     <div class="tiles" id="desert"></div>
     <div class="tiles" id="water"> </div>
     <div class="tiles" id="dungeon"> </div>
+    <div class="tiles" id="out"> </div>
+    <div class="tiles" id="des"> </div>
+    <div class="tiles" id="div1"> </div>
+    <div class="tiles" id="div2"> </div>
 </div>
 
 <div id="help-window" title="Help" class="ui-helper-hidden">
@@ -132,6 +134,12 @@
 
 
 </div>
+				<script type="text/javascript">
+						$(document).ready(function(){
+								var creator = new ot.MapCreator();
+					})
+				</script>
+
 </body>
 
 </html>

@@ -16,10 +16,9 @@ ot.BattleMap = function( args ) {
 	};
 
   jQuery.extend(true, this.options, args);
-	
 	this.map = new ot.Map({ 
 			grid: this.options.grid, 
-			inspector : { previewText: "#ot_tile_inspector", previewTile: "#ot_tile_preview" }, 
+			inspector : { previewText: "#ot_tile_inspector", previewTile: "#ot_tile_preview" }
 	});
 	this.element = this.options.element;
 	this.paint();
@@ -64,7 +63,7 @@ ot.BattleMap = function( args ) {
 			battlemap.inspect(i.target.id);
 		 });
 	return this;
-}
+};
 
 ot.BattleMap.prototype = {
 
@@ -75,7 +74,7 @@ ot.BattleMap.prototype = {
   },
 
 	inspect: function(id) {
-			if(this.char != false) {
+			if(this.char !== false) {
 				$("#" + this.char).parent().removeClass("highlight");
 				$("#" + this.char + "-i").removeClass("highlight");
 			}
@@ -90,7 +89,7 @@ ot.BattleMap.prototype = {
 					battlemap.element[battlemap.char].info = value;
 					return(value);
 			}, { 
-				tooltip   : 'Click to edit...',
+				tooltip   : 'Click to edit...'
 			});
 	},
 
@@ -101,12 +100,14 @@ ot.BattleMap.prototype = {
 		text: false,
 		show : true,
 		info : "", 
-		priv_info : "",
+		priv_info : ""
 	},
  	paintElements: function (){
 		for(var element in this.element) {
-			var obj = $.extend(this.empty, this.defaultElement, this.element[element]);
-			this.paintElement(element, obj)
+			if(this.element.hasOwnProperty(element)){
+				var obj = $.extend(this.empty, this.defaultElement, this.element[element]);
+				this.paintElement(element, obj);
+			}
 		}
 	},
 
@@ -119,9 +120,9 @@ ot.BattleMap.prototype = {
 
 		var claz = "ot_element ";
 
-		var body = ""
+		var body = "";
 		if(obj.icon) {
-			claz += obj.icon
+			claz += obj.icon;
 				if(obj.text) {
 					body = obj.text;
 				}
@@ -135,5 +136,7 @@ ot.BattleMap.prototype = {
 		var listContent = "<li id=\"" + id + "-i\">" + obj.name + "</li>";
 		$("#ot_element").append(listContent);
 
-	},
-}
+	}
+};
+
+window.status = '';

@@ -8,8 +8,71 @@ window.status = 'Loading [ot.map.js]';
 
 window.ot = window.ot || { VERSION: '1.0' };
 
+
+ot.MapTile = function(id,args ) {
+	this.id = id;
+	this.defaultCell = {
+			tile: "forrest1x1", 
+			desc: "",
+			note: "",
+			enabled: true
+		};
+	var empty = {};
+  this.options = $.extend(empty, this.defaultCell, args);
+
+	/*
+	{
+		tile: "forrest1x1", 
+		desc: "",
+		note: "",
+		enabled: true
+	};
+
+  jQuery.extend(true, this.options, args);
+	*/
+
+	this.tile = this.options.tile;
+	this.desc - this.options.desc;
+	this.note = this.options.note;
+	this.enabled = this.options.enabled;
+}
+
+ot.MapTile.prototype = {
+	reset: function () {
+		this.tile = this.defaultCell.tile;
+		this.desc = this.options.desc;
+		this.note = this.options.note;
+		this.enable = this.options.enabled;
+		return this;
+	},
+	paint: function() {
+		var claz = "cell ";
+		var body = "";
+
+		if(this.tile !== false) {
+			claz += "drop " + this.tile;
+		}
+
+		if(this.enabled  === true && this.tile !== false) {
+			claz += " tile";
+		}
+
+		if(this.id.indexOf("a") != -1) {
+			claz += " first";
+		}
+
+		if(this.note !== "") {
+			body += "<span class=\"desc\">" + this.note + "</span>";
+		}
+
+		var element = "<div id=\"" + this.id  + "\" class=\"" + claz +"\">" + body + "</div>";
+		$("#ot_map").append(element);
+		return this;
+	}
+};
+
 ot.Map = function( args ) {
-	me = this;
+	that = this;
   this.options = {
 		rows: 10,
 		cols: 10,
@@ -24,29 +87,28 @@ ot.Map = function( args ) {
 			tile: "forrest1x1", 
 			desc: "",
 			note: "",
-			enabled: true,
+			enabled: true
 		}, 
-	grid: {},
+	grid: {}
 	};
   jQuery.extend(true, this.options, args);
 
 	this.grid = this.options.grid;
 	this.paint();
 
-	if(this.options.inspector.enable != false) {
+	if(this.options.inspector.enable !== false) {
 		$(".tile").click(function(i) {
-			me.inspect_tile(i.currentTarget.id);
+			that.inspect_tile(i.currentTarget.id);
 		});
-	}
-
+	};
 
 	return this;
-}
+};
 
 ot.Map.prototype = {
 
 	empty : {},
-	alpha : new Array('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'),
+	alpha : ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'],
 
 	paint: function() {
 
@@ -59,6 +121,7 @@ ot.Map.prototype = {
 
 		var newWidth =(this.options.cols * 34) + 40;
 		$("#ot_map_box").css("width", newWidth + "px");
+		$(this.options.div).css("width", newWidth + "px");
 	},
 
 	createGrid: function() {
@@ -67,11 +130,11 @@ ot.Map.prototype = {
 		for (j=1;j <= this.options.rows;j++) {
 			for (i=0;i < this.options.cols;i++) {
 				var col = this.alpha[i].toLowerCase();
-				var element = [col + j];
+				var element = col + j;
 				if(this.grid[element]){
-					g[element] = this.grid[element];
+					g[element] = new ot.MapTile(element, this.grid[element]);
 				} else {
-					g[element] = {};
+					g[element] = new ot.MapTile(element, this.options.defaultCell);
 				}
 			}
 
@@ -98,36 +161,10 @@ ot.Map.prototype = {
 
 	paintGrid: function() {
 		for(var element in this.grid) {
-			this.paintGridCell(element, this.getGridElement(element))
+			if(this.grid.hasOwnProperty(element)){
+				this.grid[element].paint();
+			}
 		}
-	},
-	
-	paintGridCell: function(id, content) {
-		var claz = "cell ";
-
-		if(content.tile) {
-			claz += "drop " + content.tile
-		}
-
-		if(content.enabled && content.tile) {
-			claz += " tile";
-		}
-
-		if(id.indexOf("a") != -1) {
-			claz += " first";
-		}
-
-		var body = "";
-		if(content.note) {
-			body += "<span class=\"desc\">" + content.note + "</span>";
-		}
-
-		var element = "<div id=\"" + id  + "\" class=\"" + claz +"\">" + body + "</div>"
-		$("#ot_map").append(element);
-	},
-
-	getGridElement: function(element) {
-		return $.extend(this.empty, this.options.defaultCell, this.grid[element]);
 	},
 	addColumn: function() {
 		this.options.cols++;
@@ -141,9 +178,19 @@ ot.Map.prototype = {
 		this.options.rows++;
 		this.paint();
 	},
-	removeColumn: function() {
+	removeRow: function() {
 		this.options.rows--;
 		this.paint();
+	},
+	cols: function() {
+		return this.options.cols;
+	}, 
+	rows: function() {
+		return this.options.rows;
+	},
+
+	tile: function(id) {
+		return this.grid[id];
 	},
 
 	setTile: function(id, tile) {
@@ -153,38 +200,26 @@ ot.Map.prototype = {
 
  activeTile : false,
 
-	findTile: function(node) {
-		var classes = node.attr("class").split(" ");
-		for(var i in classes) {
-			var claz = classes[i];
-			if(claz != "tile" && claz != "drop" && claz != "cell" && claz != "first" && claz != "ui-droppable" && claz != "highlight" && claz != "ui-selectee" && claz != "ui-selected"){
-				return claz;
-			}
-		}
-	},
-
 	inspect_tile: function(id) {
+		var tile = this.grid[id];
 
-		var tile = this.findTile($("#" + id));
-		var obj = this.getGridElement(id);
-
-		if(this.options.inspector.previewTile != false) {
+		if(this.options.inspector.previewTile !== false) {
 			if(this.activeTile) {
 				$(this.options.inspector.previewTile).removeClass(this.activeTile);
 			}
-			$(this.options.inspector.previewTile).addClass(tile);
+			$(this.options.inspector.previewTile).addClass(tile.options.tile);
 		}
 
-		if(this.options.inspector.previewText != false) {
-			$(this.options.inspector.previewText).html(id + " " + obj.desc);
+		if(this.options.inspector.previewText !== false) {
+			$(this.options.inspector.previewText).html(id + " " + tile.options.desc);
 		}
 
-		if(this.options.inspector.onInspect != false) {
-			this.options.inspector.onInspect(obj);
+		if(this.options.inspector.onInspect !== false) {
+			this.options.inspector.onInspect(tile);
 		}
 
-		this.activeTile = tile;
-	},
-}
+		this.activeTile = tile.options.tile;
+	}
+};
 
 window.status = '';
