@@ -48,6 +48,7 @@ ot.BattleMap = function( args ) {
 				 $("#" + battlemap.charTile).removeClass("highlight");
 				 cell.addClass("highlight");
 				 battlemap.charTile = event.target.id;
+				 that.inspect_tile(event.target.id);
 			 }
 
 
