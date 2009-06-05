@@ -1,4 +1,9 @@
-
+/* 
+ * File        : ot.creator.js
+ * Author      : Bjarte Stien Karlsen
+ * Copyright   : (c) 2009
+ *               Do not use (or abuse) without permission
+ */
 window.status = 'Loading [ot.creator.js]';
 window.ot = window.ot || { VERSION: '1.0' };
 
@@ -97,6 +102,7 @@ ot.MapCreator = function() {
 
 		});
 
+		//Lock/unlock all marked tiles
     $("#tile_activate").click(function() {
         var mode;
          if($("#tile_activate").attr("value") == "Enable") {
@@ -157,26 +163,22 @@ ot.MapCreator = function() {
 								height    : "22px",
 						});
 
-
-
-			if(cell.enabled == false) {
-				$("#tile_activate").attr("value", "Enable").switchClass("ui-icon-unlocked", "ui-icon-locked");
-			 } else {
-				$("#tile_activate").attr("value", "Disable").switchClass("ui-icon-locked", "ui-icon-unlocked");
-			 }
-			
-			 $(".tiles").mousemove(function(e) {
-						var offset = $(this).offset();
-						var actualY = e.pageY - offset.top;
-						var actualX = e.pageX - offset.left;;
-						var x = 1 + Math.floor(actualX / 32.0);
-						var y = 1 + Math.floor(actualY / 32.0);
-						that.previewTile =  this.id + y + "x" + x;
-
+				if(cell.enabled == false) {
+					$("#tile_activate").attr("value", "Enable").switchClass("ui-icon-unlocked", "ui-icon-locked");
+				 } else {
+					$("#tile_activate").attr("value", "Disable").switchClass("ui-icon-locked", "ui-icon-unlocked");
+				 }
+				
+				 $(".tiles").mousemove(function(e) {
+							var offset = $(this).offset();
+							var actualY = e.pageY - offset.top;
+							var actualX = e.pageX - offset.left;;
+							var x = 1 + Math.floor(actualX / 32.0);
+							var y = 1 + Math.floor(actualY / 32.0);
+							that.previewTile =  this.id + y + "x" + x;
 					});
 			}
     });
-
-
-
 };
+
+window.status = '';

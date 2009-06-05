@@ -1,5 +1,5 @@
 /* 
- * File        : ot.map.js
+ * File        : ot.battlemap.js
  * Author      : Bjarte Stien Karlsen
  * Copyright   : (c) 2009
  *               Do not use (or abuse) without permission
@@ -42,7 +42,16 @@ ot.BattleMap = function( args ) {
 	$("div.drop").droppable({
 		hoverClass: "hover",
 		drop: function(event, ui) { 
+
 			var cell = $("#" + event.target.id);
+			if(battlemap.charTile !== event.target.id){
+				 $("#" + battlemap.charTile).removeClass("highlight");
+				 cell.addClass("highlight");
+				 battlemap.charTile = event.target.id;
+			 }
+
+
+		
 			var element = ui.draggable;
 		 	var parent_element = element.parent();
 		 	parent_element.droppable("enable");
@@ -72,6 +81,7 @@ ot.BattleMap = function( args ) {
 ot.BattleMap.prototype = {
 
 	char : false,
+	charTile : false,
 	paint: function() {
 		$(this.options.div).html(" <h3>Characters/Monsters</h3> <ul id=\"ot_element\"></ul> <h3>Tile</h3> <div class=\"ot_element\" id=\"ot_tile_preview\"></div> <div id=\"ot_tile_inspector\"> Klikk på en tile for å se info her. </div> <h3>Rolle</h3> <div class=\"editable\" id=\"ot_char_inspector\">Klikk på en spillfigur for å se info her</div>");
 		this.paintElements();
@@ -83,8 +93,12 @@ ot.BattleMap.prototype = {
 				$("#" + this.char + "-i").removeClass("highlight");
 			}
 			
+
+			var  parentDiv= $("#" + id).parent();
+
 			this.char = id;
-			$("#" + id).parent().addClass("highlight");
+			this.charTile = parentDiv.attr("id");
+			parentDiv.addClass("highlight");
 			$("#" + id + "-i").addClass("highlight");
 
 			$("#ot_char_inspector").text(this.element[id].info);
@@ -99,13 +113,14 @@ ot.BattleMap.prototype = {
 
 	empty: {},
 
-	 defaultElement: {
+	defaultElement: {
 		icon: false,
 		text: false,
 		show : true,
 		info : "", 
 		priv_info : ""
 	},
+
  	paintElements: function (){
 		for(var element in this.element) {
 			if(this.element.hasOwnProperty(element)){

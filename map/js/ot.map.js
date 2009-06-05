@@ -18,19 +18,7 @@ ot.MapTile = function(id,args ) {
 			enabled: true
 		};
 	var empty = {};
-  this.options = $.extend(empty, this.defaultCell, args);
-
-	/*
-	{
-		tile: "forrest1x1", 
-		desc: "",
-		note: "",
-		enabled: true
-	};
-
-  jQuery.extend(true, this.options, args);
-	*/
-
+  this.options = $.extend(true, empty, this.defaultCell, args);
 	this.tile = this.options.tile;
 	this.desc - this.options.desc;
 	this.note = this.options.note;
