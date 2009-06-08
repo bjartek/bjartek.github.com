@@ -108,7 +108,6 @@ ot.Map.prototype = {
 		this.paintGrid();
 
 		var newWidth =(this.options.cols * 34) + 40;
-		$("#ot_map_box").css("width", newWidth + "px");
 		$(this.options.div).css("width", newWidth + "px");
 	},
 

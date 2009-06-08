@@ -18,6 +18,7 @@ ot.BattleMap = function( args ) {
 	};
 
   jQuery.extend(true, this.options, args);
+
 	this.map = new ot.Map({ 
 			grid: this.options.grid, 
 			rows: this.options.rows, 
@@ -29,7 +30,12 @@ ot.BattleMap = function( args ) {
 
 	battlemap = this;
    
-	$("#ot_element").sortable();
+	$("#ot_element").sortable({ 
+		containment: 'parent',
+   	update: function(event, ui) {
+			battlemap.options.order = $(this).sortable('toArray');
+		}
+	});
 
    $("#ot_map .ot_element").draggable({ 
         containment: "#ot_map",
@@ -52,17 +58,19 @@ ot.BattleMap = function( args ) {
 			 }
 
 
-		
 			var element = ui.draggable;
+			battlemap.element[element.attr("id")].pos = event.target.id;
 		 	var parent_element = element.parent();
 		 	parent_element.droppable("enable");
 			cell.droppable("disable");
 
-	 	    cell.append(element);
- 	 	    element.css( {
-			    left: "0", 
-			    top: "0" 
-            });
+	 	   cell.append(element);
+ 	 	   element.css( {
+			   left: "0", 
+			   top: "0" 
+       });
+			console.log(battlemap.element);
+
 		},
 		activeClass: 'accept'
     });
@@ -84,7 +92,7 @@ ot.BattleMap.prototype = {
 	char : false,
 	charTile : false,
 	paint: function() {
-		$(this.options.div).html(" <h3>Characters/Monsters</h3> <ul id=\"ot_element\"></ul> <h3>Tile</h3> <div class=\"ot_element\" id=\"ot_tile_preview\"></div> <div id=\"ot_tile_inspector\"> Klikk på en tile for å se info her. </div> <h3>Rolle</h3> <div class=\"editable\" id=\"ot_char_inspector\">Klikk på en spillfigur for å se info her</div>");
+		$(this.options.div).html(" <h3>Characters/Monsters</h3> <ul id=\"ot_element\" class=\"ui-sortable\"></ul> <h3>Tile</h3> <div class=\"ot_element\" id=\"ot_tile_preview\"></div> <div id=\"ot_tile_inspector\"> Klikk på en tile for å se info her. </div> <h3>Rolle</h3> <div class=\"editable\" id=\"ot_char_inspector\">Klikk på en spillfigur for å se info her</div>");
 		this.paintElements();
   },
 

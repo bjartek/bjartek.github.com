@@ -46,10 +46,10 @@
         "j10" : { "tile": false } 
     },
     "element" : {
+        "nok" : { "pos" : "f4", "name" : "Nokar", "icon": "classm2x8",   "info" : "Nokar. Deva Avenger. Bloddied. Prone.", "priv_info" : "Liker å gutse" }, 
         "bal" : { "pos" : "i3", "name" : "Baal", "icon" : "monster1_6x2",  "info" : "Baal. Tiefling Wizard lvl1", "priv_info" : "Farlig sjarmerende" }, 
         "tha" : { "pos" : "i4", "name" : "Tharsul", "icon" : "classm10x5", "info" : "Tharsul. Sjeledød Shaman", "priv_info" : "Vil at ting skal dø" }, 
         "bro" : { "pos" : "e6", "name" : "Tharsul - Bror", "icon" : "undead2x7", "info" : "Bror. Tharsul sin spirit" }, 
-        "nok" : { "pos" : "f4", "name" : "Nokar", "icon": "classm2x8",   "info" : "Nokar. Deva Avenger. Bloddied. Prone.", "priv_info" : "Liker å gutse" }, 
         "nik" : { "pos" : "h4", "name" : "Nikodamus",   "icon": "classm2x4", "info" : "Nikodamus. Human spydkriger.", "priv_info" : "Glory of battle" }, 
         "pre" : { "pos" : "d8", "icon" : "humans2x1", "name" : "Prest",   "info" : "Prest", "priv_info" : "Muahaha" }, 
         "fa1" : { "pos" : "g4", "icon" : "humans2x5", "text" : "1",  "name" : "Fanatiker 1",  "info" : "Fanatiker. Bloodied", "priv_info" : "asdads"}, 
@@ -57,5 +57,6 @@
         "ku1" : { "pos" : "g3", "icon" : "humans2x4", "text" : "1", "name" : "Kultist 1" }, 
         "ku2" : { "show": false, "pos" : " g3", "name" : "Kultist 2",  "info" : "Fanatiker. Bloodied", "priv_info" : "asdads"}, 
         "ku5" : { "pos" : "e5", "icon" : "humans2x4", "text" : "5", "name": "Kultist 5",   "info" : "Fanatiker. Bloodied", "priv_info" : "asdads"},
-    }
+    },
+		"order" : [ "nok", "bal", "tha", "bro", "nik", "pre", "fa1", "fa2", "ku1", "ku2", "ku5"]
 }
