@@ -69,13 +69,12 @@ ot.BattleMap = function( args ) {
 			   left: "0", 
 			   top: "0" 
        });
-			console.log(battlemap.element);
 
 		},
 		activeClass: 'accept'
     });
 
-		$(".drop :has(div)").droppable("disable");
+		$(".drop:has(div)").droppable("disable");
 
 		$("#ot_element").find("li").click(function(i) {
 			battlemap.inspect(i.target.id.split("-")[0]);
@@ -98,9 +97,11 @@ ot.BattleMap.prototype = {
 
 	inspect: function(id) {
 			if(this.char !== false) {
-				$("#" + this.char).parent().removeClass("highlight");
-				$("#" + this.char + "-i").removeClass("highlight");
+				$(".highlight").removeClass("highlight");
 			}
+		//		$("#" + this.char).parent().removeClass("highlight");
+		//		$("#" + this.char + "-i").removeClass("highlight");
+		//	}
 			
 
 			var  parentDiv= $("#" + id).parent();
@@ -145,7 +146,6 @@ ot.BattleMap.prototype = {
 			return;
 		}
 		var cell = $("#" + obj.pos);
-
 		var claz = "ot_element ";
 
 		var body = "";
