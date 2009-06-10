@@ -20,6 +20,7 @@ ot.BattleMap = function( args ) {
   jQuery.extend(true, this.options, args);
 
 	this.map = new ot.Map({ 
+		  defaultCell: this.options.defaultCell,
 			grid: this.options.grid, 
 			rows: this.options.rows, 
 			cols: this.options.cols,

@@ -38,11 +38,11 @@ ot.MapTile.prototype = {
 		var body = "";
 
 		if(this.tile !== false) {
-			claz += "drop " + this.tile;
+			claz += this.tile;
 		}
 
 		if(this.enabled  === true && this.tile !== false) {
-			claz += " tile";
+			claz += " tile drop";
 		}
 
 		if(this.id.indexOf("a") != -1) {
@@ -79,8 +79,8 @@ ot.Map = function( args ) {
 		}, 
 	grid: {}
 	};
-  jQuery.extend(true, this.options, args);
-
+	var empty = {};
+  this.options = $.extend(true, empty, this.options, args);
 	this.grid = this.options.grid;
 	this.paint();
 
@@ -95,7 +95,6 @@ ot.Map = function( args ) {
 
 ot.Map.prototype = {
 
-	empty : {},
 	alpha : ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'],
 
 	paint: function() {
@@ -113,13 +112,15 @@ ot.Map.prototype = {
 
 	createGrid: function() {
 		var g = {};
-
+		var props = {};
+		var empty = {};
 		for (j=1;j <= this.options.rows;j++) {
 			for (i=0;i < this.options.cols;i++) {
 				var col = this.alpha[i].toLowerCase();
 				var element = col + j;
 				if(this.grid[element]){
-					g[element] = new ot.MapTile(element, this.grid[element]);
+					props = jQuery.extend(empty, this.options.defaultCell, this.grid[element]);
+					g[element] = new ot.MapTile(element, props);
 				} else {
 					g[element] = new ot.MapTile(element, this.options.defaultCell);
 				}

@@ -1,4 +1,8 @@
-{ "rows" : 10, 
+{   
+	"defaultCell" : {
+			"tile" : "dungeon6x9", 
+	}, 
+	  "rows" : 10, 
     "cols" : 10, 
     "grid" : { 
         "d1" : { "desc" : "DT. Stone floor, Wooden table", "note" : "B" }, 
