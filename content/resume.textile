@@ -29,7 +29,7 @@ Passionate and engaged developer who likes to explore new languages, techniques 
 
 h2. Selected Technical kills
 
-Scala, Java, PHP, Bash, SQL, Javascript, UML, AJAX, Spring, Maven, Jetty, Lift, Zend Framework, Doctrine, Git, Linux, Mac, Win32, XML, HTML, CSS, PHPUnit, Cruisecontrol, JUnit, Obj-C, iPhone-dev
+Scala, Java, PHP, Bash, SQL, Javascript, UML, AJAX, Spring, Maven, Jetty, Lift, Zend Framework, Doctrine, Git, Linux, Mac, Win32, XML, HTML, CSS, PHPUnit, Cruisecontrol, JUnit, Obj-C, iPhone-dev, jQuery
 
 
 h2. Educational History
