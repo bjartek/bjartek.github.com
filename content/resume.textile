@@ -46,7 +46,11 @@ Note that Agder College is now The University of Agder.
 
 h2. Employment History
 
-h3. <span>Sept 2009 -> </span> &raquo; Webdeveloper - Barlind Sollutions AS
+h3. <span>Feb 2010 -></span> &raquo; System Developer - Elsmart Solutions AS
+Part of the team developing workflow systems using Seam,jBPM, Drools, JBoss AS. 
+
+h3. <span>Sept 2009 -> Februar 2010</span> &raquo; Webdeveloper - Barlind Sollutions AS
+Created the webshop <a href="http://www.uniqueide.no">uniqueide.no</a> and did some other minor work.
 
 h3.  <span>Dec 2007 -> Mai 2009 </span> &raquo; Senior System Developer - Go Mobile As
 
