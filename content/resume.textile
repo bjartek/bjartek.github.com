@@ -29,7 +29,7 @@ Passionate and engaged developer who likes to explore new languages, techniques 
 
 h2. Selected Technical kills
 
-Scala, Java, PHP, Bash, SQL, Javascript, UML, AJAX, Spring, Maven, Jetty, Lift, Zend Framework, Doctrine, Git, Linux, Mac, Win32, XML, HTML, CSS, PHPUnit, Cruisecontrol, JUnit, Obj-C, iPhone-dev, jQuery
+Scala, Java, PHP, Bash, SQL, Javascript, UML, AJAX, Spring, Maven, Jetty, Lift, Zend Framework, Doctrine, Git, Linux, Mac, Win32, XML, HTML, CSS, PHPUnit, Cruisecontrol, JUnit, Obj-C, iPhone-dev, jQuery, JBoss Seam, Mule
 
 
 h2. Educational History
@@ -46,7 +46,11 @@ Note that Agder College is now The University of Agder.
 
 h2. Employment History
 
-h3. <span>Feb 2010 -></span> &raquo; System Developer - Elsmart Solutions AS
+h3. <span>Aug 2010 -></span> &raquo; Senior Consultant - Know IT Objectnet AS
+
+Consultant. Hopefully going to concentrate on the JVM and mobile applications. 
+
+h3. <span>Feb 2010 -> Jun 2010</span> &raquo; System Developer - Elsmart Solutions AS
 
 Part of the team developing workflow systems using Seam,jBPM, Drools, JBoss AS. 
 
