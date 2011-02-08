@@ -22,4 +22,4 @@ mac, linux, ubuntu, debian, vim, cli, git, github, irc, scala, maven, ack, testi
 
 h3. Negative tags
 
-microsoft windows, msie, microsoft office, ms word, gpl, dogs, seafood, mouse driven gui, drm, wmv, fixing hardware computer problems, fixing others microsoft windows problems, roadrage
+microsoft windows, msie, microsoft office, ms word, gpl, seafood, mouse driven gui, drm, wmv, fixing hardware computer problems, fixing others microsoft windows problems, roadrage
