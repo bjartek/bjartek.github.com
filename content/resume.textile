@@ -16,7 +16,7 @@ h2. Personal Details
 <tr><th>Name</th><td>Bjarte Stien Karlsen</td></tr>
 <tr><th>Date of Birth</th><td>6th January 1978</td>
 <tr><th>Telephone</th><td>+4795219547</td>
-<tr><th>Address</th><td>Ronatoppen 6a, 4638 Kristiansand</td>
+<tr><th>Address</th><td>Lofthus, 4790 Lillesand</td>
 <tr><th>E-mail </th><td>bjarte@bjartek.org</td>
 <tr><th>Homepage</th><td>http://www.bjartek.org</td>
 </table>
