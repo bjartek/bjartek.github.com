@@ -4,7 +4,7 @@ https://keybase.io/bjartek
 
 I hereby claim:
 
-  * I am an admin of http://bjartek.org
+  * I am an admin of https://bjartek.github.com
   * I am bjartek (https://keybase.io/bjartek) on keybase.
   * I have a public key with fingerprint 0CD3 4721 3562 EE8A 9205  F962 E67C 99A5 626B 2F3A
 
@@ -20,17 +20,22 @@ To do so, I am signing this object:
             "uid": "fa18df00a8d305aa13ad16dc0e059319",
             "username": "bjartek"
         },
+        "revoke": {
+            "sig_ids": [
+                "812536cfdba9da0039a05f0deec1bd0ab23ba792352db59cc9b4107eedacd41d0f"
+            ]
+        },
         "service": {
-            "hostname": "bjartek.org",
-            "protocol": "http:"
+            "hostname": "bjartek.github.com",
+            "protocol": "https:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1427320042,
+    "ctime": 1427320939,
     "expire_in": 157680000,
-    "prev": "8d2a1d6554ab5a4b4d9520b605bc797097dfd8cb1658bc4ccbe8cb96b7445cce",
-    "seqno": 5,
+    "prev": "ef3d5e5b9a850dd1bbf9f596f95d71c166f92df662d5695b121cd983930cb168",
+    "seqno": 8,
     "tag": "signature"
 }
 
@@ -38,17 +43,18 @@ which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
 
-owFtUr1rFEEUXxPSCBaH4Ec7WB5xvndmm5hKJLX1MR9vL+Pp7rq7OQ0xYJnSSrgi
-pLLynzhLFWzFwtZSsLCwEH1zaCE4zcz7fc28x7y4sl1sTb48W73yi9vVpfdv9nxx
-/+r06wnxbTwm1QlZwGarUzOHvutTM5KK0BCFLDkTSnMA4yynqrZ41mWw1iGqPa+F
-I1Ny2A7ZgTHeDbCbWsSwmKWI6H/0iw1BGWPeRAvAgqJOy9p4yWonDFhFS0eDkhA0
-CKSCjiVIp1DsmAGmbM0FKElz3NEmrkYi1pQ6EwVVzjHhItMxUKDKCmazcIC+cY8A
-1f6B60dYkNMpQXCZAuQJ5Eb+Fey2/RydXd+ObWgfInE4jl2VfeNxl4VPwM/+RMx8
-aiIOEQ1L6IfUNqRiqAxjyplM8lJwSiWfEnjapR5mKStUqQ3Fla+BJUaayB2LWinp
-vHLSy2gVp15T5UNpS2rLWEcTPNPK+CBD8ICV1b6UUgVsJTf1uGlJpfCZbo6RQ5o3
-bjzqgZxePtvb3tn8gL9/YrK1/7M4n6zvnF1fFBev1zde/vqwc/dbMp+K82vv7h2s
-1Pfx5lvxeX/941b/fPXxNw==
-=TMUZ
+owFtUr1uFDEQPhKlQQIpQvAALhBFlPhn7V1vIiFRQ4WoCDpsz/jOObJ77O5diEKo
+QIKOlgaqSLwBoqCkokPiCZBAlEg8AOMTFEi48Xjmm2++Gc/LC+ujtc1vj1+d+dlO
+fe7TDz+6c4n3J8y3cMzqEzbD1RVTM8Fu3qVmYDXjAVRRSqG0kYiVs5LraMk2ZbDW
+kdd4GZVjW2za9jmDaLzrcTu15KPHOAF5/4OfrQJcCOErsIgiaO5MEStfiOhUhVbz
+0vGgCwwGFYWCgRILpwnsRIVC2ygV6oJnusWKLlIAIueuAsW1c0I5EAYCR66tEjYD
+e+wad4iE9geuG3DGTrdYh8t2hnkAfZqQ5p7Vd1klpFYmRPDOguNcWUftc0AMwgN3
+XirvSiuVluC1DcGSdl4iggtQCOCR3SNuKrhMYUWeh/Rv8e1JGqYLvx3aQxI379qh
+De0Dik+HYd7XWdtwPM8JR+jHf6jGPjVAH0UZS+z61DasFoQMQ8rcopClktwqu8Xw
+0Tx1OE4ZoUtTcTq5DoZl/peoQKP21lWaAwjvo43ammg1lCIIQ5aEaIwEbaz2QooA
+tlJW8eCFqVju7mHTsroinW5ClDS/xg2LDtnp+efX1zdWa/Z37zbXfu2O3jyB/b3p
+5Q+3dp+tvd/Z//nu48Ht+6PXe09fbHxf8Lc3Pk+ufblyUX69evPsNw==
+=9uvy
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
