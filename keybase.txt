@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/bjartek
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://bjartek.org
+  * I am bjartek (https://keybase.io/bjartek) on keybase.
+  * I have a public key with fingerprint 0CD3 4721 3562 EE8A 9205  F962
+    E67C 99A5 626B 2F3A
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "0cd347213562ee8a9205f962e67c99a5626b2f3a",
+            "host": "keybase.io",
+            "key_id": "e67c99a5626b2f3a",
+            "kid":
+"0111b8d9ee1c50a64f8b41fa38e9507a0c54ec6e3a64c6d7e4a59eea18e159f23e540a",
+            "uid": "fa18df00a8d305aa13ad16dc0e059319",
+            "username": "bjartek"
+        },
+        "service": {
+            "hostname": "bjartek.org",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1427320042,
+    "expire_in": 157680000,
+    "prev":
+"8d2a1d6554ab5a4b4d9520b605bc797097dfd8cb1658bc4ccbe8cb96b7445cce",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtUr1rFEEUXxPSCBaH4Ec7WB5xvndmm5hKJLX1MR9vL+Pp7rq7OQ0xYJnSSrgi
+pLLynzhLFWzFwtZSsLCwEH1zaCE4zcz7fc28x7y4sl1sTb48W73yi9vVpfdv9nxx
+/+r06wnxbTwm1QlZwGarUzOHvutTM5KK0BCFLDkTSnMA4yynqrZ41mWw1iGqPa+F
+I1Ny2A7ZgTHeDbCbWsSwmKWI6H/0iw1BGWPeRAvAgqJOy9p4yWonDFhFS0eDkhA0
+CKSCjiVIp1DsmAGmbM0FKElz3NEmrkYi1pQ6EwVVzjHhItMxUKDKCmazcIC+cY8A
+1f6B60dYkNMpQXCZAuQJ5Eb+Fey2/RydXd+ObWgfInE4jl2VfeNxl4VPwM/+RMx8
+aiIOEQ1L6IfUNqRiqAxjyplM8lJwSiWfEnjapR5mKStUqQ3Fla+BJUaayB2LWinp
+vHLSy2gVp15T5UNpS2rLWEcTPNPK+CBD8ICV1b6UUgVsJTf1uGlJpfCZbo6RQ5o3
+bjzqgZxePtvb3tn8gL9/YrK1/7M4n6zvnF1fFBev1zde/vqwc/dbMp+K82vv7h2s
+1Pfx5lvxeX/941b/fPXxNw==
+=TMUZ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bjartek
+
+==================================================================
+
+
+}
+}
+}
+}
