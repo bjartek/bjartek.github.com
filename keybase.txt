@@ -6,8 +6,7 @@ I hereby claim:
 
   * I am an admin of http://bjartek.org
   * I am bjartek (https://keybase.io/bjartek) on keybase.
-  * I have a public key with fingerprint 0CD3 4721 3562 EE8A 9205  F962
-    E67C 99A5 626B 2F3A
+  * I have a public key with fingerprint 0CD3 4721 3562 EE8A 9205  F962 E67C 99A5 626B 2F3A
 
 To do so, I am signing this object:
 
@@ -17,8 +16,7 @@ To do so, I am signing this object:
             "fingerprint": "0cd347213562ee8a9205f962e67c99a5626b2f3a",
             "host": "keybase.io",
             "key_id": "e67c99a5626b2f3a",
-            "kid":
-"0111b8d9ee1c50a64f8b41fa38e9507a0c54ec6e3a64c6d7e4a59eea18e159f23e540a",
+            "kid": "0111b8d9ee1c50a64f8b41fa38e9507a0c54ec6e3a64c6d7e4a59eea18e159f23e540a",
             "uid": "fa18df00a8d305aa13ad16dc0e059319",
             "username": "bjartek"
         },
@@ -31,8 +29,7 @@ To do so, I am signing this object:
     },
     "ctime": 1427320042,
     "expire_in": 157680000,
-    "prev":
-"8d2a1d6554ab5a4b4d9520b605bc797097dfd8cb1658bc4ccbe8cb96b7445cce",
+    "prev": "8d2a1d6554ab5a4b4d9520b605bc797097dfd8cb1658bc4ccbe8cb96b7445cce",
     "seqno": 5,
     "tag": "signature"
 }
@@ -60,3 +57,5 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/bjartek
 
 ==================================================================
+
+
