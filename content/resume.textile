@@ -16,7 +16,7 @@ h2. Personal Details
 <tr><th>Name</th><td>Bjarte Stien Karlsen</td></tr>
 <tr><th>Date of Birth</th><td>6th January 1978</td>
 <tr><th>Telephone</th><td>+4795219547</td>
-<tr><th>Address</th><td>Lofthus, 4790 Lillesand</td>
+<tr><th>Address</th><td>Lofthusveien 77, 4790 Lillesand</td>
 <tr><th>E-mail </th><td>bjarte@bjartek.org</td>
 <tr><th>Homepage</th><td>http://www.bjartek.org</td>
 </table>
@@ -29,7 +29,7 @@ Passionate and engaged developer who likes to explore new languages, techniques 
 
 h2. Selected Technical kills
 
-Scala, Java, PHP, Bash, SQL, Javascript, UML, AJAX, Spring, Maven, Jetty, Lift, Zend Framework, Doctrine, Git, Linux, Mac, Win32, XML, HTML, CSS, PHPUnit, Cruisecontrol, JUnit, Obj-C, iPhone-dev, jQuery, JBoss Seam, Mule
+Kubernetes, OpenShift, Jenkins, JVM, Kotlin, Java, Bash, Spring, Maven, Git, Linux, Mac, HTML, CSS, iPhone-dev
 
 
 h2. Educational History
@@ -46,19 +46,33 @@ Note that Agder College is now The University of Agder.
 
 h2. Employment History
 
-h3. <span>Aug 2010 -></span> &raquo; Senior Consultant - Know IT Objectnet AS
+h3. <span>Apr 2015 -> </span> &raquo; Senior Engineer - Norwegian Tax Administration IT
+Started out working with Atlassian development tools but transitioned to be part of the MAP project where we built a development plattform based around OpenShift (a kubernetes distribution).
 
-Consultant. Hopefully going to concentrate on the JVM and mobile applications. 
+Has worked on this plattform since fall 2015 and have since 2017 had the responsiblity for the top level user facing part of the plattform. More on the plattform can be read at https://skatteetaten.github.io/aurora/
+
+Also was part of a project to roll out Mac as development machines for all developers during 2019/2020.
+
+Have talked about the Aurora Plattform at kubecon and javazone.
+ * In 2017 I introduced <a href="https://2017.javazone.no/program/da894dee983848168ed25015b43fd110">the aurora plattform at javazone</a>
+ * In <a href="https://kccnceu18.sched.com/event/Dqu9/kubernetes-and-taxes-lessons-learned-at-the-norwegian-tax-administration-a-production-case-study-bjarte-s-karlsen-the-norwegian-tax-administration-intermediate-skill-level-slides-attached">Kubecon2018</a> i gave an experience report on our plattform, with a repeated performance at <a href="https://2018.javazone.no/program/92799046-8f4d-45ef-af0f-20767b8041f9">JavaZone</a>
+ * In 2019 I talked about <a href="https://www.pscp.tv/javazone/1RDxlNjkQZkGL>CD that scale with a coworker at javaZone</a>
+
+h3. <span>Aug 2010 -> Mar 2015</span> &raquo; Senior Consultant - Know IT Objectnet AS
+
+Consultant. Had two periods with Norwegian Tax Administration IT working on their Real estate registry domain. Also had responsiblity around Atlassian based tooling for Know IT local department.
+
+Held several talks at the local Jug during this time.
 
 h3. <span>Feb 2010 -> Jun 2010</span> &raquo; System Developer - Elsmart Solutions AS
 
 Part of the team developing workflow systems using Seam,jBPM, Drools, JBoss AS. 
 
-h3. <span>Sept 2009 -> Februar 2010</span> &raquo; Webdeveloper - Barlind Sollutions AS
+h3. <span>Sept 2009 -> Feb 2010</span> &raquo; Webdeveloper - Barlind Sollutions AS
 
 Created the webshop <a href="http://www.uniqueide.no">uniqueide.no</a> and did some other minor work.
 
-h3.  <span>Dec 2007 -> Mai 2009 </span> &raquo; Senior System Developer - Go Mobile As
+h3.  <span>Dec 2007 -> May 2009 </span> &raquo; Senior System Developer - Go Mobile As
 
 Additional responsibilities and tasks
 * developing native iPhone applications for some of our products
@@ -108,7 +122,7 @@ h2. Volunteer Work
 
 My volunteer work are either related to my hobby as a role-playing/board-gamer or to organizing groups for computer professionals/students. 
 
-* <span>Aug 2008 -> present </span> &raquo; Member of the board "javaBin":http://java.no  Sørlandet
+* <span>Aug 2008 -> Dec 2012 and a bit of 2018</span> &raquo; Member of the board "javaBin":http://java.no  Sørlandet
 * <span>Jan 2006 -> Jan 2009</span> &raquo; Leader of "Alea Legio":http://alealegio.no
 * <span>Sep 2004 -> Aug 2005</span> &raquo; Secretary / Storekeeper "Hexagon":http://www.pvv.ntnu.no/hexagon/hexagon/
 * <span>Nov 2004 -> Oct 2005</span> &raquo; Secretary "Hexcon":http://www.pvv.ntnu.no/hexagon/hexcon/
