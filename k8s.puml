@@ -1,7 +1,7 @@
-@startuml kubernetes
+@startuml k8s
 
 footer Kubernetes Plant-UML
-scale max 1024 width
+scale max 900 width
 
 
 skinparam nodesep 10
