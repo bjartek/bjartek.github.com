@@ -1,0 +1,54 @@
+baseurl = "https://bjartek.org"
+DefaultContentLanguage = "en"
+title = "bjartek - random musings of a nerd"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[Params]
+  homeTitle = "BjarteK" # Set a different text for the header on the home page
+   subtitle = "#dev #reader #tool-smith #firefly #vim #fish #cli #kubernetes #flow"
+  mainSections = ["post","posts"]
+  logo = "https://avatars.githubusercontent.com/u/10621?v=4"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  readingTime = true
+  wordCount = true
+  socialShare = true
+  showRelatedPosts = true
+
+[Author]
+  name = "Bjarte S. Karlsen"
+  website = "bjartek.org"
+  email = "bjarte@bjartek.org"
+  facebook = "bjartek"
+  github = "bjartek"
+  twitter = "bjartek"
+  stackoverflow = "users/23914/bjartek"
+  slack = "bjartek"
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 2 
+
+[[menu.main]]
+  identifier = "flow"
+  name = "Flow"
+  url = "/categories/flow"
+  weight = 1
+
+[[menu.main]]
+  identifier = "blogging"
+  name = "Blogging"
+  url = "/categories/blogging"
+  weight = 1

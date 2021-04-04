@@ -1,0 +1,28 @@
+{{ $fileName := .Get "file" }}
+
+{{ $extension := path.Ext $fileName }}
+{{ $extension := replace $extension "." "" }}
+{{ $lang := default $extension (.Get "language") }}
+
+{{ $file := $fileName | readFile }}
+{{ $highlight := .Get "hl_lines" | printf "hl_lines=[%s]," }}
+
+
+{{ $start := 1 }}
+{{ if .Get "start" }}
+  {{ $start := .Get "start" | int }}
+  {{ $end := .Get "end" | int }}
+  {{ $length := sub $end $start }}
+
+  {{/* Splitting content by newline */}}
+  {{ $file := split $file "\n" }}
+
+  {{/* Limit the array/slice,  start from 2nd item then grab all first 3 item */}}
+  {{ $file := first $length (after $start $file) }}
+
+  {{/* Delimit by newline */}}
+  {{ $file := delimit $file "\n" }}
+{{ end }}
+
+{{ (print "```" $lang " {linenos=table," $highlight "linenostart=" $start " }\n" $file "```") | safeHTML  }}
+
