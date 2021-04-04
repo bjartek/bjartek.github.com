@@ -38,33 +38,33 @@ In order to cope with this I have crated a shortcode code for hugo that allows m
 </span><span class=lnt>26
 </span><span class=lnt>27
 </span><span class=lnt>28
-</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-html data-lang=html>{{ $fileName := .Get &#34;file&#34; }}
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-go data-lang=go><span class=p>{{</span> <span class=err>$</span><span class=nx>fileName</span> <span class=o>:=</span> <span class=p>.</span><span class=nx>Get</span> <span class=s>&#34;file&#34;</span> <span class=p>}}</span>
 
-{{ $extension := path.Ext $fileName }}
-{{ $extension := replace $extension &#34;.&#34; &#34;&#34; }}
-{{ $lang := default $extension (.Get &#34;language&#34;) }}
+<span class=p>{{</span> <span class=err>$</span><span class=nx>extension</span> <span class=o>:=</span> <span class=nx>path</span><span class=p>.</span><span class=nx>Ext</span> <span class=err>$</span><span class=nx>fileName</span> <span class=p>}}</span>
+<span class=p>{{</span> <span class=err>$</span><span class=nx>extension</span> <span class=o>:=</span> <span class=nx>replace</span> <span class=err>$</span><span class=nx>extension</span> <span class=s>&#34;.&#34;</span> <span class=s>&#34;&#34;</span> <span class=p>}}</span>
+<span class=p>{{</span> <span class=err>$</span><span class=nx>lang</span> <span class=o>:=</span> <span class=k>default</span> <span class=err>$</span><span class=nf>extension</span> <span class=p>(.</span><span class=nx>Get</span> <span class=s>&#34;language&#34;</span><span class=p>)</span> <span class=p>}}</span>
 
-{{ $file := $fileName | readFile }}
-<span class=hl>{{ $highlight := .Get &#34;hl_lines&#34; | printf &#34;hl_lines=[%s],&#34; }}
+<span class=p>{{</span> <span class=err>$</span><span class=nx>file</span> <span class=o>:=</span> <span class=err>$</span><span class=nx>fileName</span> <span class=p>|</span> <span class=nx>readFile</span> <span class=p>}}</span>
+<span class=hl><span class=p>{{</span> <span class=err>$</span><span class=nx>highlight</span> <span class=o>:=</span> <span class=p>.</span><span class=nx>Get</span> <span class=s>&#34;hl_lines&#34;</span> <span class=p>|</span> <span class=nx>printf</span> <span class=s>&#34;hl_lines=[%s],&#34;</span> <span class=p>}}</span>
 </span>
 
-{{ $start := 1 }}
-{{ if .Get &#34;start&#34; }}
-  {{ $start := .Get &#34;start&#34; | int }}
-  {{ $end := .Get &#34;end&#34; | int }}
-  {{ $length := sub $end $start }}
+<span class=p>{{</span> <span class=err>$</span><span class=nx>start</span> <span class=o>:=</span> <span class=mi>1</span> <span class=p>}}</span>
+<span class=p>{{</span> <span class=k>if</span> <span class=p>.</span><span class=nx>Get</span> <span class=s>&#34;start&#34;</span> <span class=p>}}</span>
+  <span class=p>{{</span> <span class=err>$</span><span class=nx>start</span> <span class=o>:=</span> <span class=p>.</span><span class=nx>Get</span> <span class=s>&#34;start&#34;</span> <span class=p>|</span> <span class=kt>int</span> <span class=p>}}</span>
+  <span class=p>{{</span> <span class=err>$</span><span class=nx>end</span> <span class=o>:=</span> <span class=p>.</span><span class=nx>Get</span> <span class=s>&#34;end&#34;</span> <span class=p>|</span> <span class=kt>int</span> <span class=p>}}</span>
+  <span class=p>{{</span> <span class=err>$</span><span class=nx>length</span> <span class=o>:=</span> <span class=nx>sub</span> <span class=err>$</span><span class=nx>end</span> <span class=err>$</span><span class=nx>start</span> <span class=p>}}</span>
 
-  {{/* Splitting content by newline */}}
-  {{ $file := split $file &#34;\n&#34; }}
+  <span class=p>{{</span><span class=cm>/* Splitting content by newline */</span><span class=p>}}</span>
+  <span class=p>{{</span> <span class=err>$</span><span class=nx>file</span> <span class=o>:=</span> <span class=nx>split</span> <span class=err>$</span><span class=nx>file</span> <span class=s>&#34;\n&#34;</span> <span class=p>}}</span>
 
-  {{/* Limit the array/slice,  start from 2nd item then grab all first 3 item */}}
-  {{ $file := first $length (after $start $file) }}
+  <span class=p>{{</span><span class=cm>/* Limit the array/slice,  start from 2nd item then grab all first 3 item */</span><span class=p>}}</span>
+  <span class=p>{{</span> <span class=err>$</span><span class=nx>file</span> <span class=o>:=</span> <span class=nx>first</span> <span class=err>$</span><span class=nf>length</span> <span class=p>(</span><span class=nx>after</span> <span class=err>$</span><span class=nx>start</span> <span class=err>$</span><span class=nx>file</span><span class=p>)</span> <span class=p>}}</span>
 
-  {{/* Delimit by newline */}}
-  {{ $file := delimit $file &#34;\n&#34; }}
-{{ end }}
+  <span class=p>{{</span><span class=cm>/* Delimit by newline */</span><span class=p>}}</span>
+  <span class=p>{{</span> <span class=err>$</span><span class=nx>file</span> <span class=o>:=</span> <span class=nx>delimit</span> <span class=err>$</span><span class=nx>file</span> <span class=s>&#34;\n&#34;</span> <span class=p>}}</span>
+<span class=p>{{</span> <span class=nx>end</span> <span class=p>}}</span>
 
-{{ (print &#34;```&#34; $lang &#34; {linenos=table,&#34; $highlight &#34;linenostart=&#34; $start &#34; }\n&#34; $file &#34;```&#34;) | safeHTML  }}
+<span class=p>{{</span> <span class=p>(</span><span class=nx>print</span> <span class=s>&#34;```&#34;</span> <span class=err>$</span><span class=nx>lang</span> <span class=s>&#34; {linenos=table,&#34;</span> <span class=err>$</span><span class=nx>highlight</span> <span class=s>&#34;linenostart=&#34;</span> <span class=err>$</span><span class=nx>start</span> <span class=s>&#34; }\n&#34;</span> <span class=err>$</span><span class=nx>file</span> <span class=s>&#34;```&#34;</span><span class=p>)</span> <span class=p>|</span> <span class=nx>safeHTML</span>  <span class=p>}}</span>
 
 </code></pre></td></tr></table></div></div><div class=blog-tags><a href=https://bjartek.org/tags/hugo/>hugo</a>&nbsp;
 <a href=https://bjartek.org/tags/chroma/>chroma</a>&nbsp;
