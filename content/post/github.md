@@ -8,7 +8,7 @@ categories :  ["blogging"]
 In order to host my blog I looked no further then gh-pages. Since my sourcecode is on github and they offer free gh-pages and ci with github actions I see no reason why this simple blog should be hosted anywhere else.
 
 
-Git github action script is pretty straight forward
+The github worklof is pretty simple
 
 On any push to master it will
  - fetch the site with submodules (to get the theme)
@@ -17,8 +17,7 @@ On any push to master it will
  - generate minified version
  - publish to gh-pages branch
 
-Note that in order to get it to work with a custom domain you need a CNAME file in static. 
-
+Note that in order to get it to work with a custom domain you need a CNAME file in static.
 
 {{% code file=".github/workflows/gh-pages.yml" %}}
 
