@@ -9,7 +9,7 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params]
   homeTitle = "BjarteK" # Set a different text for the header on the home page
-   subtitle = "#dev #reader #tool-smith #firefly #vim #fish #cli #kubernetes #flow"
+  subtitle = "#dev #reader #tool-smith #firefly #vim #fish #cli #kubernetes #flow"
   mainSections = ["post","posts"]
   logo = "https://avatars.githubusercontent.com/u/10621?v=4"
   favicon = "img/favicon.ico"

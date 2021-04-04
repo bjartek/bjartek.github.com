@@ -18,5 +18,5 @@ In order to cope with this I have crated a `shortcode` [code](https://raw.github
  - works with chroma build in styling (not highlightjs)
 
 The shortcode`s code is as follows: (using the shortcode to show itself)
-{{% code file="/layouts/shortcodes/code.html" hl_lines="8" %}}
+{{% code file="/layouts/shortcodes/code.html" hl_lines="8" language="go" %}}
 
