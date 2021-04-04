@@ -9,10 +9,8 @@ After searching and trying out lots of different themes i settled on [beautifulh
 
 The criera I have for chooing a theme can be found in [blogging](../blogging)
 
-I tried so many themes that I cannot list them here before I find something I was happy with. 
-
+Some of the other themes I tried was:
  - kiara
  - eureka
  - papermod
-
-
+ - anatole
