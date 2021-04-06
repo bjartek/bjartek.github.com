@@ -1,7 +1,7 @@
 ---
-title: "Blogging with gh-pages and and Github Actions"
+Title: "Blogging with gh-pages and and Github Actions"
 date: 2021-04-04T21:58:02+02:00
-tags : ["github", "gh-pages", "github-aciton"]
+tags : ["github", "gh-pages", "github-action"]
 categories :  ["blogging"]
 ---
 
