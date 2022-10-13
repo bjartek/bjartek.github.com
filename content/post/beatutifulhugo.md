@@ -5,7 +5,7 @@ tags: ["hugo"]
 categories: ["blogging"]
 ---
 
-After searching and trying out lots of different themes i settled on [beautifulhugo](https://themes.gohugo.io/beautifulhugo/) for now. 
+After searching and trying out lots of different themes i settled on [beautifulhugo](https://themes.gohugo.io/beautifulhugo/). 
 
 The criera I have for chooing a theme can be found in [blogging](../blogging)
 

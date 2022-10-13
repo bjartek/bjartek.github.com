@@ -8,7 +8,7 @@ categories =  ["blogging"]
 I decided to start up blogging again. My eyes have long been on [hugo](http://gohugo.io) as a blogging plattform.
 
 My needs for blogging are:
- - blog showing actual syntax highligheten code
+ - blog showing actual syntax highlight code
  - blog using plantuml diagrams
  - blog using markdown
 
